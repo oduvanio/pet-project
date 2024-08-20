@@ -5,12 +5,7 @@ module.exports = {
         jest: true,
     },
     parser: '@typescript-eslint/parser',
-    extends: [
-        'plugin:react/recommended',
-        'airbnb',
-        'eslint:recommended',
-        'plugin:i18n-json/recommended',
-    ],
+    extends: ['plugin:react/recommended', 'airbnb', 'eslint:recommended', 'plugin:i18n-json/recommended', 'plugin:storybook/recommended'],
     overrides: [
         {
             env: {
@@ -56,7 +51,7 @@ module.exports = {
         'i18next/no-literal-string': ['error',
             {
                 markupOnly: true,
-                ignoreAttribute: ['data-testid'],
+                ignoreAttribute: ['data-testid', 'to'],
             },
         ],
         'max-len': ['error', { ignoreComments: true, code: 100 }],

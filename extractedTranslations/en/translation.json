@@ -1,6 +1,13 @@
 {
   "Cделать ошибк": "Cделать ошибк",
   "Cделать ошибку": "throw error",
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit": {
+    " Deleniti omnis ab ipsa at enim error ipsum, incidunt iure necessitatibus quia odit dolor animi praesentium sapiente facilis et quas culpa eaque, debitis rem possimus sequi! Repellendus aperiam doloremque itaque voluptatum consequatur": {
+      "": ""
+    }
+  },
+  "decrement": "decrement",
+  "increment": "increment",
   "toggle": "toggle",
   "Войти": "Войти",
   "Главная": "Main",

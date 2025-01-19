@@ -16,24 +16,40 @@
 	// 	"description": "Log output to console"
 	// }
 	"template react component": {
-		"prefix": "component",
+        "prefix": "component",
+        "body": [
+            "import {classNames} from \"shared/lib/classNames/classNames\";",
+            "import cls from './$TM_FILENAME_BASE.module.scss';",
+            "",
+            "interface ${1:$TM_FILENAME_BASE}Props {",
+            "    className?: string;",
+            "}",
+            "",
+            "export const $TM_FILENAME_BASE = ({className}: ${1:$TM_FILENAME_BASE}Props) => {",
+            "",
+            "    return (",
+            "        <div className={classNames(cls.$TM_FILENAME_BASE, {}, [className])}>",
+            "",
+            "        </div>",
+            "    );",
+            "};"
+        ],
+        "description": "template react component"
+        },
+    
+    "create test template": {
+		"prefix": "ts",
 		"body": [
-		  "import {classNames} from \"shared/lib/classNames/classNames\";",
-		  "import cls from './$TM_FILENAME_BASE.module.scss';",
-		  "",
-		  "interface ${1:$TM_FILENAME_BASE}Props {",
-		  "    className?: string;",
-		  "}",
-		  "",
-		  "export const $TM_FILENAME_BASE = ({className}: ${1:$TM_FILENAME_BASE}Props) => {",
-		  "",
-		  "    return (",
-		  "        <div className={classNames(cls.$TM_FILENAME_BASE, {}, [className])}>",
-		  "",
-		  "        </div>",
-		  "    );",
-		  "};"
+            "import { DeepPartial } from '@reduxjs/toolkit';",
+            "import { StateSchema } from 'app/providers/StoreProvider';",
+            "import { getCounter } from './getCounter';",
+            "",
+            "describe('${1:$TM_FILENAME_BASE}', () => {",
+            "    test('', () => {",
+            "        expect().toEqual();",
+            "    });",
+            "});",
 		],
-		"description": "template react component"
+		"description": "create test template"
 	  }
 }

@@ -168,8 +168,8 @@ export const SquareSizeL: Story = {
     },
 };
 
-export const SquareSizeXL: Story = {
-    name: 'SquareSizeXL',
+export const Disabled: Story = {
+    name: 'Disabled',
     argTypes: {
         className: {
             backgroundColor: { control: 'color' },
@@ -177,8 +177,7 @@ export const SquareSizeXL: Story = {
     },
     args: {
         children: '>',
-        theme: ButtonTheme.BACKGROUND_INVERTED,
-        square: true,
-        size: ButtonSize.XL,
+        theme: ButtonTheme.OUTLINE,
+        disabled: true,
     },
 };

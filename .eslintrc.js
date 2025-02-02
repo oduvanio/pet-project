@@ -5,7 +5,13 @@ module.exports = {
         jest: true,
     },
     parser: '@typescript-eslint/parser',
-    extends: ['plugin:react/recommended', 'airbnb', 'eslint:recommended', 'plugin:i18n-json/recommended', 'plugin:storybook/recommended'],
+    extends: [
+        'plugin:react/recommended',
+        'airbnb',
+        'eslint:recommended',
+        'plugin:i18n-json/recommended',
+        'plugin:storybook/recommended',
+    ],
     overrides: [
         {
             env: {

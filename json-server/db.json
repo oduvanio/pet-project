@@ -1,25 +1,26 @@
 {
-    "posts": [
-        { "id": "1", "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-        { "id": "1", "body": "some comment", "postId": "1" }
-    ],
-    "users": [
-        {
-            "id": "1",
-            "username": "admin",
-            "password": "123"
-        }
-    ],
-    "profile": {
-        "first": "Александр",
-        "lastname": "Крутой",
-        "age": "40",
-        "currency": "RUB",
-        "country": "Russia",
-        "city": "Moscow",
-        "username": "admin",
-        "avatar": ""
+  "posts": [
+    {
+      "id": "1",
+      "title": "json-server",
+      "author": "typicode"
     }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some comment",
+      "postId": "1"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123"
+    }
+  ],
+  "profile": {
+    "country": "Russia"
+  }
 }

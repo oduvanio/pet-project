@@ -15,11 +15,6 @@ type Story = StoryObj<typeof AppLink>
 export const Primary: Story = {
     decorators: [],
     name: 'Primary',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
     args: {
         children: 'Text',
         theme: AppLinkTheme.PRIMARY,
@@ -29,11 +24,6 @@ export const Primary: Story = {
 export const Secondary: Story = {
     decorators: [],
     name: 'Secondary',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
     args: {
         children: 'Text',
         theme: AppLinkTheme.SECONDARY,
@@ -43,11 +33,6 @@ export const Secondary: Story = {
 export const PrimaryDark: Story = {
     decorators: [ThemeDecorator(Theme.DARK)],
     name: 'PrimaryDark',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
     args: {
         children: 'Text',
         theme: AppLinkTheme.PRIMARY,
@@ -57,11 +42,6 @@ export const PrimaryDark: Story = {
 export const SecondaryDark: Story = {
     decorators: [ThemeDecorator(Theme.DARK)],
     name: 'SecondaryDark',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
     args: {
         children: 'Text',
         theme: AppLinkTheme.PRIMARY,

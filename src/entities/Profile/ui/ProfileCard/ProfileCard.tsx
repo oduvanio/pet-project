@@ -1,15 +1,15 @@
-import {classNames, Mods} from "shared/lib/classNames/classNames";
-import cls from './ProfileCard.module.scss';
-import { Text, TextAlign, TextTheme } from "shared/ui/Text/Text";
-import { useTranslation } from "react-i18next";
-import { Input } from "shared/ui/Input/Input";
-import { Profile } from "../../model/types/profile";
-import { Loader } from "shared/ui/Loader/Loader";
-import { Avatar } from "shared/ui/Avatar/Avatar";
-import { Currency } from "entities/Currency/model/types/currency";
-import { CurrencySelect } from "entities/Currency";
+import { classNames, Mods } from 'shared/lib/classNames/classNames';
+import { Text, TextAlign, TextTheme } from 'shared/ui/Text/Text';
+import { useTranslation } from 'react-i18next';
+import { Input } from 'shared/ui/Input/Input';
+import { Loader } from 'shared/ui/Loader/Loader';
+import { Avatar } from 'shared/ui/Avatar/Avatar';
+import { Currency } from 'entities/Currency/model/types/currency';
+import { CurrencySelect } from 'entities/Currency';
 
-import { Country, CountrySelect } from "entities/Country";
+import { Country, CountrySelect } from 'entities/Country';
+import { Profile } from '../../model/types/profile';
+import cls from './ProfileCard.module.scss';
 
 interface ProfileCardProps {
     className?: string;
@@ -47,10 +47,10 @@ export const ProfileCard = (props: ProfileCardProps) => {
 
     if (isLoading) {
         return (
-            <div className={classNames(cls.ProfileCard, {[cls.loading]: true}, [className])}>
+            <div className={classNames(cls.ProfileCard, { [cls.loading]: true }, [className])}>
                 <Loader />
             </div>
-        )
+        );
     }
 
     if (error) {
@@ -63,12 +63,12 @@ export const ProfileCard = (props: ProfileCardProps) => {
                     align={TextAlign.CENTER}
                 />
             </div>
-        )
+        );
     }
 
     const mods: Mods = {
         [cls.editing]: !readonly,
-    }
+    };
 
     return (
         <div className={classNames(cls.ProfileCard, mods, [className])}>

@@ -15,17 +15,9 @@ type Story = StoryObj<typeof PageError>
 export const Light: Story = {
     decorators: [],
     name: 'Light',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
 };
 
 export const Dark: Story = {
     decorators: [ThemeDecorator(Theme.DARK)],
     name: 'Dark',
-    parameters: {
-        backgroundColor: { control: 'color' },
-    },
 };

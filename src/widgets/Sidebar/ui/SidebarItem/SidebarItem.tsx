@@ -5,9 +5,9 @@ import MainIcon from 'shared/assets/icons/main-20-20.svg';
 import { SidebarItemType } from 'widgets/Sidebar/model/items';
 import { useTranslation } from 'react-i18next';
 import { memo } from 'react';
-import cls from './SidebarItem.module.scss';
 import { getUserAuthData } from 'entities/User';
 import { useSelector } from 'react-redux';
+import cls from './SidebarItem.module.scss';
 
 interface SidebarItemProps {
     item: SidebarItemType;

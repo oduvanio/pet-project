@@ -18,19 +18,11 @@ export const Light: Story = {
 
     })],
     name: 'Light',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
 };
 
 export const Dark: Story = {
     decorators: [ThemeDecorator(Theme.DARK), StoreDecorator({})],
     name: 'Dark',
-    parameters: {
-        backgroundColor: { control: 'color' },
-    },
 };
 
 export const AuthNavbar: Story = {
@@ -38,9 +30,4 @@ export const AuthNavbar: Story = {
         user: { authData: {} },
     })],
     name: 'AuthNavbar',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
 };

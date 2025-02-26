@@ -19,11 +19,6 @@ export const Primary: Story = {
         },
     })],
     name: 'Primary',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
     args: {},
 };
 
@@ -36,11 +31,6 @@ export const withError: Story = {
         },
     })],
     name: 'withError',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
     args: {},
 };
 
@@ -51,10 +41,5 @@ export const Loading: Story = {
         },
     })],
     name: 'Loading',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
     args: {},
 };

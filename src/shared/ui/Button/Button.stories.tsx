@@ -15,11 +15,6 @@ type Story = StoryObj<typeof Button>
 export const Primary: Story = {
     decorators: [],
     name: 'Primary',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
     args: {
         children: 'Text',
     },
@@ -28,11 +23,6 @@ export const Primary: Story = {
 export const Clear: Story = {
     decorators: [],
     name: 'Clear',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
     args: {
         children: 'Text',
         theme: ButtonTheme.CLEAR,
@@ -42,11 +32,6 @@ export const Clear: Story = {
 export const ClearInverted: Story = {
     decorators: [],
     name: 'ClearInverted',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
     args: {
         children: 'Text',
         theme: ButtonTheme.CLEAR_INVERTED,
@@ -56,11 +41,6 @@ export const ClearInverted: Story = {
 export const Outline: Story = {
     decorators: [],
     name: 'Outline',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
     args: {
         children: 'Text',
         theme: ButtonTheme.OUTLINE,
@@ -70,11 +50,6 @@ export const Outline: Story = {
 export const OutlineSizeL: Story = {
     decorators: [],
     name: 'OutlineSizeL',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
     args: {
         children: 'Text',
         theme: ButtonTheme.OUTLINE,
@@ -85,11 +60,6 @@ export const OutlineSizeL: Story = {
 export const OutlineSizeXL: Story = {
     decorators: [],
     name: 'OutlineSizeXL',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
     args: {
         children: 'Text',
         theme: ButtonTheme.OUTLINE,
@@ -100,11 +70,6 @@ export const OutlineSizeXL: Story = {
 export const OutlineDark: Story = {
     decorators: [ThemeDecorator(Theme.DARK)],
     name: 'OutlineDark',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
     args: {
         children: 'Text',
         theme: ButtonTheme.OUTLINE,
@@ -114,11 +79,6 @@ export const OutlineDark: Story = {
 export const BackgroundTheme: Story = {
     decorators: [ThemeDecorator(Theme.DARK)],
     name: 'BackgroundTheme',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
     args: {
         children: 'Text',
         theme: ButtonTheme.BACKGROUND,
@@ -128,11 +88,6 @@ export const BackgroundTheme: Story = {
 export const BackgroundInverted: Story = {
     decorators: [ThemeDecorator(Theme.DARK)],
     name: 'BackgroundInverted',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
     args: {
         children: 'Text',
         theme: ButtonTheme.BACKGROUND_INVERTED,
@@ -141,11 +96,6 @@ export const BackgroundInverted: Story = {
 
 export const Square: Story = {
     name: 'Square',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
     args: {
         children: '>',
         theme: ButtonTheme.BACKGROUND_INVERTED,
@@ -155,11 +105,6 @@ export const Square: Story = {
 
 export const SquareSizeL: Story = {
     name: 'SquareSizeL',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
     args: {
         children: '>',
         theme: ButtonTheme.BACKGROUND_INVERTED,
@@ -170,11 +115,6 @@ export const SquareSizeL: Story = {
 
 export const Disabled: Story = {
     name: 'Disabled',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
     args: {
         children: '>',
         theme: ButtonTheme.OUTLINE,

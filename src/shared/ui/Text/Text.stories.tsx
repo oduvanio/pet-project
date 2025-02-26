@@ -15,11 +15,6 @@ type Story = StoryObj<typeof Text>
 export const Primary: Story = {
     decorators: [],
     name: 'Primary',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
     args: {
         title: 'Tilte lorem ipsun',
         text: 'Description text for storybook component',
@@ -29,11 +24,6 @@ export const Primary: Story = {
 export const Error: Story = {
     decorators: [],
     name: 'Error',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
     args: {
         title: 'Tilte lorem ipsun',
         text: 'Description text for storybook component',
@@ -44,11 +34,6 @@ export const Error: Story = {
 export const OnlyText: Story = {
     decorators: [],
     name: 'OnlyText',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
     args: {
         text: 'Description text for storybook component',
     },
@@ -57,11 +42,6 @@ export const OnlyText: Story = {
 export const OnlyTitle: Story = {
     decorators: [],
     name: 'OnlyTitle',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
     args: {
         title: 'Tilte lorem ipsun',
     },
@@ -70,11 +50,6 @@ export const OnlyTitle: Story = {
 export const PrimaryDark: Story = {
     decorators: [ThemeDecorator(Theme.DARK)],
     name: 'PrimaryDark',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
     args: {
         title: 'Tilte lorem ipsun',
         text: 'Description text for storybook component',
@@ -84,11 +59,6 @@ export const PrimaryDark: Story = {
 export const OnlyTextDark: Story = {
     decorators: [ThemeDecorator(Theme.DARK)],
     name: 'OnlyTextDark',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
     args: {
         text: 'Description text for storybook component',
     },
@@ -97,11 +67,6 @@ export const OnlyTextDark: Story = {
 export const OnlyTitleDark: Story = {
     decorators: [ThemeDecorator(Theme.DARK)],
     name: 'OnlyTitleDark',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
     args: {
         title: 'Tilte lorem ipsun',
     },

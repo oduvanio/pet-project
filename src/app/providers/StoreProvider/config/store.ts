@@ -1,4 +1,6 @@
-import { CombinedState, configureStore, getDefaultMiddleware, Reducer, ReducersMapObject } from '@reduxjs/toolkit';
+import {
+    CombinedState, configureStore, getDefaultMiddleware, Reducer, ReducersMapObject,
+} from '@reduxjs/toolkit';
 import { counterReducer } from 'entities/Counter';
 import { userReducer } from 'entities/User';
 import { useDispatch } from 'react-redux';
@@ -23,7 +25,7 @@ export function createReduxStore(
     const extraArg: ThunkExtraArg = {
         api: $api,
         navigate,
-    }
+    };
 
     const store = configureStore({
         reducer: reducerManager.reduce as Reducer<CombinedState<StateSchema>>,

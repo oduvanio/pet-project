@@ -13,12 +13,5 @@ type Story = StoryObj<typeof CountrySelect>
 export const Primary: Story = {
     decorators: [],
     name: 'Primary',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
     args: {},
 };
-
- 

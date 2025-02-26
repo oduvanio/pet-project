@@ -14,11 +14,6 @@ type Story = StoryObj<typeof Avatar>
 export const Primary: Story = {
     decorators: [],
     name: 'Primary',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
     args: {
         size: 150,
         src: AvatarImg,
@@ -28,14 +23,8 @@ export const Primary: Story = {
 export const Small: Story = {
     decorators: [],
     name: 'Small',
-    argTypes: {
-        className: {
-            backgroundColor: { control: 'color' },
-        },
-    },
     args: {
         size: 50,
         src: AvatarImg,
     },
 };
-

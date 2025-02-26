@@ -13,7 +13,6 @@ type Story = StoryObj<typeof Input>
 export const Primary: Story = {
     decorators: [],
     name: 'Primary',
-    argTypes: {},
     args: {
         placeholder: 'Type text',
         value: '123123',

@@ -51,5 +51,41 @@
             "});",
 		],
 		"description": "create test template"
-	  }
+	  },
+
+      "template storybook component": {
+        "prefix": "storybook",
+        "body": [
+            "import { Meta, StoryObj } from '@storybook/react';",
+            "",
+            "import { ${TM_FILENAME_BASE/([^.]+).*/${1}/} } from './${TM_FILENAME_BASE/([^.]+).*/${1}/}';",
+            "",
+            "const meta: Meta<typeof ${TM_FILENAME_BASE/([^.]+).*/${1}/}> = {",
+            "    component: ${TM_FILENAME_BASE/([^.]+).*/${1}/},",
+            "};",
+            "",
+            "export default meta;",
+            "",
+            "type Story = StoryObj<typeof ${TM_FILENAME_BASE/([^.]+).*/${1}/}>",
+            "",``
+            "export const Normal: Story = {",
+            "    decorators: [],",
+            "    name: 'Normal',",
+            "    args: {",
+            "",
+            "    },",
+            "};"
+        ],
+        "description": "template storybook component"
+        },
+
+        "template scss component": {
+        "prefix": "scss",
+        "body": [
+            ".${TM_FILENAME_BASE/([^.]+).*/${1}/} {",
+            "",
+            "}",
+        ],
+        "description": "template scss component"
+        },
 }

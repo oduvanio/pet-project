@@ -21,12 +21,13 @@
             "import {classNames} from \"shared/lib/classNames/classNames\";",
             "import cls from './$TM_FILENAME_BASE.module.scss';",
             "import { useTranslation } from 'react-i18next';",
+            "import { memo } from 'react';",
             "",
             "interface ${1:$TM_FILENAME_BASE}Props {",
             "    className?: string;",
             "}",
             "",
-            "export const $TM_FILENAME_BASE = (props: ${1:$TM_FILENAME_BASE}Props) => {",
+            "export const $TM_FILENAME_BASE = memo((props: ${1:$TM_FILENAME_BASE}Props) => {",
             "    const { className } = props;",
             "    const { t } = useTranslation();",
             "",
@@ -35,7 +36,7 @@
             "",
             "        </div>",
             "    );",
-            "};"
+            "});"
         ],
         "description": "template react component"
         },

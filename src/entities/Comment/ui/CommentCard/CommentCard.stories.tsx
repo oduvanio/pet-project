@@ -14,6 +14,23 @@ export const Normal: Story = {
     decorators: [],
     name: 'Normal',
     args: {
+        comment: {
+            id: '1',
+            text: 'hello world',
+            user: { id: '1', username: 'Vasya' },
+        },
+    },
+};
 
+export const Loading: Story = {
+    decorators: [],
+    name: 'Loading',
+    args: {
+        comment: {
+            id: '1',
+            text: 'hello world',
+            user: { id: '1', username: 'Vasya' },
+        },
+        isLoading: true,
     },
 };

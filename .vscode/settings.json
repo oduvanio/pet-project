@@ -8,5 +8,6 @@
     },
     "eslint.validate": ["javascript"],
     "scss.validate": true,
-    "i18n-ally.sourceLanguage": "en"
+    "i18n-ally.sourceLanguage": "en",
+    "typescript.tsdk": "node_modules\\typescript\\lib"
 }

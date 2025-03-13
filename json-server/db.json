@@ -75,6 +75,24 @@
       "text": "some comment 3",
       "articleId": "1",
       "userId": "1"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "123",
+      "id": "3CEyz4K"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "234",
+      "id": "w58i41o"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "Привет мир",
+      "id": "ex23nWV"
     }
   ],
   "users": [
@@ -93,11 +111,22 @@
       "avatar": "https://premiumkorea.ru/upload/1-1.jpg"
     }
   ],
-  "profile": {
-    "country": "Russia",
-    "avatar": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ9E8XKEtZiFjJGEvVEiP1qZ2FSp9JYI0VrZsh2YU2UiXXYEoaUYAP5RZO9PZ69F9fnEWYkSAVN8dQgi-CnDXG7bw",
-    "first": "Ленка",
-    "lastname": "Зозу",
-    "age": 40
-  }
+  "profile": [
+    {
+      "id": "1",
+      "country": "Russia",
+      "avatar": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ9E8XKEtZiFjJGEvVEiP1qZ2FSp9JYI0VrZsh2YU2UiXXYEoaUYAP5RZO9PZ69F9fnEWYkSAVN8dQgi-CnDXG7bw",
+      "first": "Ленка",
+      "lastname": "Зозу",
+      "age": 40
+    },
+    {
+      "id": "2",
+      "country": "Russia",
+      "avatar": "https://premiumkorea.ru/upload/1-1.jpg",
+      "first": "Юля",
+      "lastname": "Зозул",
+      "age": 40
+    }
+  ]
 }

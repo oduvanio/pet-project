@@ -11,6 +11,11 @@ const article: Article = {
     views: 1022,
     createdAt: '26.02.2025',
     type: [ArcticleType.IT],
+    user: {
+        id: '1',
+        username: 'zoz',
+        avatar: 'https://premiumkorea.ru/upload/1-1.jpg',
+    },
     blocks: [
         {
             id: '1',

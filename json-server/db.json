@@ -3,16 +3,121 @@
     {
       "id": "1",
       "title": "json-server",
-      "author": "typicode"
+      "userId": "1"
+    },
+    {
+      "id": "2",
+      "title": "json-server",
+      "userId": "2"
     }
   ],
   "articles": [
     {
       "id": "1",
       "title": "Javascript news",
-      "user": "1",
+      "userId": "1",
       "subtitle": "Что нового в JS За 2025 год",
-      "img": "https://cdn.lemanapro.ru/lmru/image/upload/f_auto/q_auto/dpr_1.0/c_pad/w_1000/h_1000/v1714997029/lmcode/zAgHMAqShk-heLmb1Oi4Lg/89373153_01.png",
+      "img": "https://avatars.mds.yandex.net/i?id=0bf5c655682bbe14a236ac2754bac954a9b1f901-5538185-images-thumbs&n=13",
+      "views": 1022,
+      "createdAt": "26.02.2025",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют 'Hello, world', очень проста.",
+            "JavaScript - это язык, программы на котором можно выполнять в разных средах",
+            "Существуют и другие способы запуска JS-кода в браузере"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "title": "Заголовок этого блока",
+          "code": "const path = require('path'); \n\nconst server = jsonServer.create();"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют 'Hello, world', очень проста.",
+            "Существуют и другие способы запуска JS-кода в браузере"
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://cdn.lemanapro.ru/lmru/image/upload/f_auto/q_auto/dpr_1.0/c_pad/w_1000/h_1000/v1714997029/lmcode/zAgHMAqShk-heLmb1Oi4Lg/89373153_01.png",
+          "title": "Рисунок 1 - скриншот сайта"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "const path = require('path'); \n\nconst server = jsonServer.create();"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Python news",
+      "userId": "1",
+      "subtitle": "Что нового в JS За 2025 год",
+      "img": "https://avatars.mds.yandex.net/i?id=0535305d1250d04128b42a12b3dbdd7cc5cff030-12150810-images-thumbs&n=13",
+      "views": 1022,
+      "createdAt": "26.02.2025",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют 'Hello, world', очень проста.",
+            "JavaScript - это язык, программы на котором можно выполнять в разных средах",
+            "Существуют и другие способы запуска JS-кода в браузере"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "title": "Заголовок этого блока",
+          "code": "const path = require('path'); \n\nconst server = jsonServer.create();"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют 'Hello, world', очень проста.",
+            "Существуют и другие способы запуска JS-кода в браузере"
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://cdn.lemanapro.ru/lmru/image/upload/f_auto/q_auto/dpr_1.0/c_pad/w_1000/h_1000/v1714997029/lmcode/zAgHMAqShk-heLmb1Oi4Lg/89373153_01.png",
+          "title": "Рисунок 1 - скриншот сайта"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "const path = require('path'); \n\nconst server = jsonServer.create();"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Java news",
+      "userId": "1",
+      "subtitle": "Что нового в JS За 2025 год",
+      "img": "https://avatars.mds.yandex.net/i?id=a128926c2eeea617285fb72ba8b2d559050847b7-4480317-images-thumbs&n=13",
       "views": 1022,
       "createdAt": "26.02.2025",
       "type": [

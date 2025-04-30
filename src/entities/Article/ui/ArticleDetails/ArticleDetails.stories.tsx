@@ -1,7 +1,7 @@
 import { Meta, StoryObj } from '@storybook/react';
 
 import { StoreDecorator } from 'shared/config/storybook/StoreDecorator/StoreDecorator';
-import { ArcticleType, Article, ArticleBlockType } from 'entities/Article/model/types/article';
+import { ArticleType, Article, ArticleBlockType } from 'entities/Article/model/types/article';
 import { ArticleDetails } from './ArticleDetails';
 
 const meta: Meta<typeof ArticleDetails> = {
@@ -19,7 +19,7 @@ const article: Article = {
     img: 'https://cdn.lemanapro.ru/lmru/image/upload/f_auto/q_auto/dpr_1.0/c_pad/w_1000/h_1000/v1714997029/lmcode/zAgHMAqShk-heLmb1Oi4Lg/89373153_01.png',
     views: 1022,
     createdAt: '26.02.2025',
-    type: [ArcticleType.IT],
+    type: [ArticleType.IT],
     user: {
         id: '1',
         username: 'zoz',

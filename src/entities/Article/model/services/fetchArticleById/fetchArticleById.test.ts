@@ -1,6 +1,6 @@
 import { TestAsyncThunk } from 'shared/lib/tests/TestAsyncThunk/TestAsyncThunk';
 import { fetchArticleById } from './fetchArticleById';
-import { ArcticleType, ArticleBlockType } from '../../types/article';
+import { ArticleType, ArticleBlockType } from '../../types/article';
 
 const data = {
     article: {
@@ -10,7 +10,7 @@ const data = {
         img: 'https://cdn.lemanapro.ru/lmru/image/upload/f_auto/q_auto/dpr_1.0/c_pad/w_1000/h_1000/v1714997029/lmcode/zAgHMAqShk-heLmb1Oi4Lg/89373153_01.png',
         views: 1022,
         createdAt: '26.02.2025',
-        type: [ArcticleType.IT],
+        type: [ArticleType.IT],
         blocks: [
             {
                 id: '1',

@@ -19,10 +19,15 @@ module.exports = {
             },
             files: [
                 '.eslintrc.{js,cjs}',
+                '**/src/**/*.{test,stories}.{ts,tsx}',
             ],
             parserOptions: {
                 sourceType: 'script',
                 ecmaVersion: '2020',
+            },
+            rules: {
+                'i18next/no-literal-string': 'off',
+                'max-len': 'off',
             },
         },
     ],
@@ -35,6 +40,7 @@ module.exports = {
         '@typescript-eslint',
         'i18next',
         'react-hooks',
+        'zozu-plugin',
     ],
     rules: {
         'react/jsx-indent': [2, 4],
@@ -70,19 +76,11 @@ module.exports = {
         'no-undef': 'off',
         'react/no-array-index-key': 'off',
         'arrow-body-style': 'off',
+        'zozu-plugin/path-checker': 'error',
     },
     globals: {
         __IS_DEV__: true,
         __API__: true,
         __PROJECT__: true,
     },
-    overrides: [
-        {
-            files: ['**/src/**/*.{test,stories}.{ts,tsx}'],
-            rules: {
-                'i18next/no-literal-string': 'off',
-                'max-len': 'off',
-            },
-        },
-    ],
 };

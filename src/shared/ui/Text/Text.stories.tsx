@@ -81,3 +81,23 @@ export const SizeL: Story = {
         size: TextSize.L,
     },
 };
+
+export const SizeM: Story = {
+    decorators: [],
+    name: 'SizeM',
+    args: {
+        title: 'Tilte lorem ipsun',
+        text: 'Description text for storybook component',
+        size: TextSize.M,
+    },
+};
+
+export const SizeS: Story = {
+    decorators: [],
+    name: 'SizeS',
+    args: {
+        title: 'Tilte lorem ipsun',
+        text: 'Description text for storybook component',
+        size: TextSize.S,
+    },
+};

@@ -1,4 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react';
+import { StoreDecorator } from 'shared/config/storybook/StoreDecorator/StoreDecorator';
 
 import { ArticleDetailsPageHeader } from './ArticleDetailsPageHeader';
 
@@ -11,7 +12,7 @@ export default meta;
 type Story = StoryObj<typeof ArticleDetailsPageHeader>
 
 export const Normal: Story = {
-    decorators: [],
+    decorators: [StoreDecorator({})],
     name: 'Normal',
     args: {
 

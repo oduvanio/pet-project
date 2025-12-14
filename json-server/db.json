@@ -472,6 +472,24 @@
       "userId": "1",
       "text": "Ghb",
       "id": "8NRclbj"
+    },
+    {
+      "articleId": "5",
+      "userId": "2",
+      "text": "234242",
+      "id": "hBIItfg"
+    },
+    {
+      "articleId": "5",
+      "userId": "2",
+      "text": "fdsafsafsa",
+      "id": "irwV16-"
+    },
+    {
+      "articleId": "5",
+      "userId": "2",
+      "text": "sadf",
+      "id": "AR1KTN8"
     }
   ],
   "users": [
@@ -479,21 +497,27 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "role": ["ADMIN"],
+      "role": [
+        "ADMIN"
+      ],
       "avatar": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ9E8XKEtZiFjJGEvVEiP1qZ2FSp9JYI0VrZsh2YU2UiXXYEoaUYAP5RZO9PZ69F9fnEWYkSAVN8dQgi-CnDXG7bw"
     },
     {
       "id": "2",
       "username": "user",
       "password": "123",
-      "role": ["USER"],
+      "role": [
+        "USER"
+      ],
       "avatar": "https://premiumkorea.ru/upload/1-1.jpg"
     },
     {
       "id": "3",
       "username": "manager",
       "password": "123",
-      "role": ["MANAGER"],
+      "role": [
+        "MANAGER"
+      ],
       "avatar": "https://premiumkorea.ru/upload/1-1.jpg"
     }
   ],

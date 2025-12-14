@@ -6,7 +6,8 @@ import {
     List, WindowScroller, ListRowProps,
 } from 'react-virtualized';
 import { PAGE_ID } from 'widgets/Page/ui/Page';
-import { Article, ArticleView } from '../../model/types/article';
+import { Article } from '../../model/types/article';
+import { ArticleView } from '../../model/consts/articleConsts';
 import cls from './ArticleList.module.scss';
 import { ArticleListItem } from '../ArticleListItem/ArticleListItem';
 import { ArticleListItemSkeleton } from '../ArticleListItem/ArticleListItemSkeleton';

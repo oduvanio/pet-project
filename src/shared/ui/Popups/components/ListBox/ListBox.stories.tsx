@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import { ListBox } from './ListBox';
+import { ListBox } from '../ListBox/ListBox';
 
 const meta: Meta<typeof ListBox> = {
     component: ListBox,

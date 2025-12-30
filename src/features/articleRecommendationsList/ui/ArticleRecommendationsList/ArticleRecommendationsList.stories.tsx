@@ -1,8 +1,8 @@
 import { Meta, StoryObj } from '@storybook/react';
-import { Article } from 'entities/Article';
-import { StoreDecorator } from 'shared/config/storybook/StoreDecorator/StoreDecorator';
 import { http, HttpResponse } from 'msw';
 import { mswLoader } from 'msw-storybook-addon';
+import { Article } from '@/entities/Article';
+import { StoreDecorator } from '@/shared/config/storybook/StoreDecorator/StoreDecorator';
 
 import { ArticleRecommendationsList } from './ArticleRecommendationsList';
 

@@ -29,6 +29,7 @@ const article: Article = {
 };
 
 export const Normal: Story = {
+    loaders: [mswLoader],
     decorators: [StoreDecorator({})],
     name: 'ArticleRecommendationsList',
     args: {
@@ -37,7 +38,37 @@ export const Normal: Story = {
     parameters: {
         msw: {
             handlers: [
-                http.get(`${__API__}articles`, ({ request }) => {
+                // 1. Сначала универсальный хендлер для отладки
+                http.get(`${__API__}*`, ({ request }) => {
+                    console.log('🔍 [MSW] Перехвачен любой запрос:');
+                    console.log('   URL:', request.url);
+
+                    const url = new URL(request.url);
+                    console.log('   Pathname:', url.pathname);
+                    console.log('   Search params:', Object.fromEntries(url.searchParams.entries()));
+
+                    // Проверяем, что это за запрос
+                    if (url.pathname.includes('recommendations')) {
+                        console.log('   ⭐ Это похоже на запрос рекомендаций!');
+
+                        const recommendations = Array.from({ length: 3 }, (_, i) => ({
+                            ...article,
+                            id: String(i + 1),
+                            title: `Рекомендация ${i + 1}`,
+                            subtitle: `Подзаголовок рекомендации ${i + 1}`,
+                            views: 100 + i * 50,
+                            img: `https://placehold.co/600x400/00${i}0/FFFFFF?text=Recommendation+${i + 1}`,
+                        }));
+
+                        console.log('   📤 Отправляем 3 рекомендации');
+                        return HttpResponse.json(recommendations);
+                    }
+
+                    // Если это другой запрос
+                    console.log('   ❓ Неизвестный запрос, возвращаем 404');
+                    return new HttpResponse(null, { status: 404 });
+                }),
+                http.get(`${__API__}/articles`, ({ request }) => {
                     console.log('[MSW] Intercepted request to:', request.url);
                     const url = new URL(request.url);
                     const limit = url.searchParams.get('_limit');
@@ -47,7 +78,7 @@ export const Normal: Story = {
 
                     // Создаем массив рекомендаций
                     const recommendations = [];
-                    for (let i = 1; i <= (limit ? parseInt(limit, 2) : 3); i += 1) {
+                    for (let i = 1; i <= (limit ? parseInt(limit, 10) : 3); i += 1) {
                         recommendations.push({
                             ...article,
                             id: String(i),

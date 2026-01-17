@@ -6,9 +6,9 @@ import { classNames } from '@/shared/lib/classNames/classNames';
 import {
     getUserAuthData, isUseManager, isUserAdmin, userActions,
 } from '@/entities/User';
-import { RoutePath } from '@/shared/config/routeConfig/routeConfig';
 import { Avatar } from '@/shared/ui/Avatar/Avatar';
 import cls from './AvatarDropdown.module.scss';
+import { RoutePath } from '@/shared/const/router';
 
 interface AvatarDropdownProps {
     className?: string;

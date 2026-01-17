@@ -88,7 +88,12 @@ module.exports = {
         'react/no-array-index-key': 'off',
         'arrow-body-style': 'off',
         'zozu-plugin/path-checker': ['error', { alias: '@' }],
-        'zozu-plugin/public-api-imports': ['error', { alias: '@' }],
+        'zozu-plugin/public-api-imports': ['error',
+            {
+                alias: '@',
+                testFilesPatterns: ['**/*.test.*', '**/*.story.*', '**/StoreDecorator.tsx'],
+            },
+        ],
     },
     globals: {
         __IS_DEV__: true,

@@ -94,6 +94,7 @@
     "mini-css-extract-plugin": "^2.5.3",
     "msw": "^2.12.4",
     "msw-storybook-addon": "^2.0.6",
+    "storybook-addon-themes": "^6.1.0",
     "react-refresh": "^0.12.0",
     "reg-cli": "^0.17.6",
     "regenerator-runtime": "^0.13.9",

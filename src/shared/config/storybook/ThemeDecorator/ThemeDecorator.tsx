@@ -1,6 +1,8 @@
-import '@/app/styles/index.scss';
 import { StoryFn } from '@storybook/react';
-import { Theme, ThemeProvider } from '@/app/providers/ThemeProvider';
+// eslint-disable-next-line zozu-plugin/layer-imports
+import { ThemeProvider } from '@/app/providers/ThemeProvider';
+
+import { Theme } from '@/shared/const/theme';
 
 export const ThemeDecorator = (theme: Theme) => (Story: StoryFn) => (
     <ThemeProvider initialTheme={theme}>

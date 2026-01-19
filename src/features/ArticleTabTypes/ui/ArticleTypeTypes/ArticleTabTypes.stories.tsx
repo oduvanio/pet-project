@@ -1,6 +1,5 @@
+import { ArticleTypeTabs } from '@/features/ArticleTypeTabs';
 import { Meta, StoryObj } from '@storybook/react';
-
-import { ArticleTypeTabs } from './ArticleTypeTabs';
 
 const meta: Meta<typeof ArticleTypeTabs> = {
     component: ArticleTypeTabs,
@@ -12,7 +11,7 @@ type Story = StoryObj<typeof ArticleTypeTabs>
 
 export const Normal: Story = {
     decorators: [],
-    name: 'Normal',
+    name: 'ArticleTypeTabs',
     args: {
 
     },

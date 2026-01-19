@@ -12,7 +12,7 @@ type Story = StoryObj<typeof ArticleSortSelector>
 
 export const Normal: Story = {
     decorators: [],
-    name: 'Normal',
+    name: 'ArticleSortSelector',
     args: {
 
     },

@@ -14,6 +14,10 @@ export const Normal: Story = {
     decorators: [],
     name: 'Normal',
     args: {
-
+        item: {
+            id: '1',
+            title: 'title',
+            description: 'description',
+        },
     },
 };

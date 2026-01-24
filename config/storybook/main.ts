@@ -18,6 +18,7 @@ const config: StorybookConfig = {
         '@storybook/addon-interactions',
         'msw-storybook-addon',
         'storybook-addon-themes',
+        'storybook-addon-mock',
     ],
     framework: {
         name: '@storybook/react-webpack5',

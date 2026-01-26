@@ -450,6 +450,71 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Javascript news",
+      "userId": "1",
+      "subtitle": "Что нового в JS За 2025 год",
+      "img": "https://avatars.mds.yandex.net/i?id=0bf5c655682bbe14a236ac2754bac954a9b1f901-5538185-images-thumbs&n=13",
+      "views": 1022,
+      "createdAt": "26.02.2025",
+      "type": [
+        "IT"
+      ],
+      "blocks": [],
+      "id": "kMhRzCt"
+    },
+    {
+      "title": "Javascript news",
+      "userId": "1",
+      "subtitle": "Что нового в JS За 2025 год",
+      "img": "https://avatars.mds.yandex.net/i?id=0bf5c655682bbe14a236ac2754bac954a9b1f901-5538185-images-thumbs&n=13",
+      "views": 1022,
+      "createdAt": "26.02.2025",
+      "type": [
+        "IT"
+      ],
+      "blocks": [],
+      "id": "mC4w0B4"
+    },
+    {
+      "title": "Javascript news",
+      "userId": "1",
+      "subtitle": "Что нового в JS За 2025 год",
+      "img": "https://avatars.mds.yandex.net/i?id=0bf5c655682bbe14a236ac2754bac954a9b1f901-5538185-images-thumbs&n=13",
+      "views": 1022,
+      "createdAt": "26.02.2025",
+      "type": [
+        "IT"
+      ],
+      "blocks": [],
+      "id": "cOK7ENh"
+    },
+    {
+      "title": "Javascript news",
+      "userId": "1",
+      "subtitle": "Что нового в JS За 2025 год",
+      "img": "https://avatars.mds.yandex.net/i?id=0bf5c655682bbe14a236ac2754bac954a9b1f901-5538185-images-thumbs&n=13",
+      "views": 1022,
+      "createdAt": "26.02.2025",
+      "type": [
+        "IT"
+      ],
+      "blocks": [],
+      "id": "LSfvVQ2"
+    },
+    {
+      "title": "TESTING ARTICLE",
+      "userId": "1",
+      "subtitle": "Что нового в JS За 2025 год",
+      "img": "https://avatars.mds.yandex.net/i?id=0bf5c655682bbe14a236ac2754bac954a9b1f901-5538185-images-thumbs&n=13",
+      "views": 1022,
+      "createdAt": "26.02.2025",
+      "type": [
+        "IT"
+      ],
+      "blocks": [],
+      "id": "9_MtfFe"
     }
   ],
   "comments": [
@@ -579,6 +644,14 @@
       "avatar": "https://premiumkorea.ru/upload/1-1.jpg",
       "first": "Юля",
       "lastname": "Зозул",
+      "age": 40
+    },
+    {
+      "id": "4",
+      "country": "Russia",
+      "avatar": "https://premiumkorea.ru/upload/1-1.jpg",
+      "first": "test",
+      "lastname": "user",
       "age": 40
     }
   ],

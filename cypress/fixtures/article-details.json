@@ -1,0 +1,31 @@
+{
+    "id": "19",
+    "title": "Беспроводное электричество",
+    "userId": "1",
+    "subtitle": "Технология WiTricity",
+    "img": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2lyZWxlc3MlMjBlbGVjdHJpY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "views": 6100,
+    "createdAt": "04.04.2025",
+    "type": [
+        "ECONOMICS"
+    ],
+    "blocks": [
+        {
+            "id": "1",
+            "type": "TEXT",
+            "title": "Как это работает",
+            "paragraphs": [
+                "Передача энергии на расстояние до 5 метров без проводов."
+            ]
+        }
+    ],
+    "user": {
+        "id": "1",
+        "username": "admin",
+        "password": "123",
+        "role": [
+            "ADMIN"
+        ],
+        "avatar": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ9E8XKEtZiFjJGEvVEiP1qZ2FSp9JYI0VrZsh2YU2UiXXYEoaUYAP5RZO9PZ69F9fnEWYkSAVN8dQgi-CnDXG7bw"
+    }
+}

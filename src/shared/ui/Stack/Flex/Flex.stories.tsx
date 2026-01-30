@@ -8,7 +8,7 @@ const meta: Meta<typeof Flex> = {
 
 export default meta;
 
-type Story = StoryObj<typeof Flex>
+type Story = StoryObj<typeof Flex>;
 
 export const Row: Story = {
     decorators: [],

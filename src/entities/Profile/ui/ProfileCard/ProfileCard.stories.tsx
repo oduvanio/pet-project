@@ -12,7 +12,7 @@ const meta: Meta<typeof ProfileCard> = {
 
 export default meta;
 
-type Story = StoryObj<typeof ProfileCard>
+type Story = StoryObj<typeof ProfileCard>;
 
 export const Primary: Story = {
     decorators: [],
@@ -40,11 +40,13 @@ export const withError: Story = {
 };
 
 export const Loading: Story = {
-    decorators: [StoreDecorator({
-        loginForm: {
-            isLoading: true,
-        },
-    })],
+    decorators: [
+        StoreDecorator({
+            loginForm: {
+                isLoading: true,
+            },
+        }),
+    ],
     name: 'Loading',
     args: {
         isLoading: true,

@@ -8,7 +8,7 @@ const meta: Meta<typeof CountrySelect> = {
 
 export default meta;
 
-type Story = StoryObj<typeof CountrySelect>
+type Story = StoryObj<typeof CountrySelect>;
 
 export const Primary: Story = {
     decorators: [],

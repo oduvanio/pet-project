@@ -1,8 +1,9 @@
-import {
-    memo, ReactNode, useCallback, useEffect,
-} from 'react';
+import { memo, ReactNode, useCallback, useEffect } from 'react';
 import { classNames } from '@/shared/lib/classNames/classNames';
-import { AnimationProvider, useAnimationLibs } from '@/shared/lib/components/AnimationProvider';
+import {
+    AnimationProvider,
+    useAnimationLibs,
+} from '@/shared/lib/components/AnimationProvider';
 import cls from './Drawer.module.scss';
 import { Portal } from '../Portal/Portal';
 import { Overlay } from '../Overlay/Overlay';
@@ -20,13 +21,7 @@ const height = window.innerHeight - 100;
 
 export const DrawerContent = memo((props: DrawerProps) => {
     const { Spring, Gesture } = useAnimationLibs();
-    const {
-        className,
-        children,
-        isOpen,
-        onClose,
-        lazy,
-    } = props;
+    const { className, children, isOpen, onClose, lazy } = props;
     const { theme } = useTheme();
 
     const [{ y }, api] = Spring.useSpring(() => ({ y: height }));
@@ -43,31 +38,40 @@ export const DrawerContent = memo((props: DrawerProps) => {
 
     const close = (velocity = 0) => {
         api.start({
-            y: height, immediate: false, config: { ...Spring.config.stiff, velocity }, onResolve: onClose,
+            y: height,
+            immediate: false,
+            config: { ...Spring.config.stiff, velocity },
+            onResolve: onClose,
         });
     };
 
-    const bind = Gesture.useDrag(({
-        last,
-        velocity: [, vy],
-        direction: [, dy],
-        movement: [, my],
-        cancel,
-    }) => {
-        if (my < -70) cancel();
+    const bind = Gesture.useDrag(
+        ({
+            last,
+            velocity: [, vy],
+            direction: [, dy],
+            movement: [, my],
+            cancel,
+        }) => {
+            if (my < -70) cancel();
 
-        if (last) {
-            if (my > height * 0.5 || (vy > 0.5 && dy > 0)) {
-                close();
+            if (last) {
+                if (my > height * 0.5 || (vy > 0.5 && dy > 0)) {
+                    close();
+                } else {
+                    openDrawer();
+                }
             } else {
-                openDrawer();
+                api.start({ y: my, immediate: true });
             }
-        } else {
-            api.start({ y: my, immediate: true });
-        }
-    }, {
-        from: () => [0, y.get()], filterTaps: true, bounds: { top: 0 }, rubberband: true,
-    });
+        },
+        {
+            from: () => [0, y.get()],
+            filterTaps: true,
+            bounds: { top: 0 },
+            rubberband: true,
+        },
+    );
 
     if (!isOpen) {
         return null;
@@ -78,11 +82,21 @@ export const DrawerContent = memo((props: DrawerProps) => {
 
     return (
         <Portal>
-            <div className={classNames(cls.Drawer, {}, [className, theme, 'app_drawer'])}>
+            <div
+                className={classNames(cls.Drawer, {}, [
+                    className,
+                    theme,
+                    'app_drawer',
+                ])}
+            >
                 <Overlay onClick={close} />
                 <Spring.a.div
                     className={cls.sheet}
-                    style={{ display, bottom: `calc(-100vh + ${height - 100}px)`, y }}
+                    style={{
+                        display,
+                        bottom: `calc(-100vh + ${height - 100}px)`,
+                        y,
+                    }}
                     {...bind()}
                 >
                     {children}

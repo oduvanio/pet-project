@@ -10,7 +10,7 @@ const meta: Meta<typeof ArticleRating> = {
 
 export default meta;
 
-type Story = StoryObj<typeof ArticleRating>
+type Story = StoryObj<typeof ArticleRating>;
 
 export const Normal: Story = {
     decorators: [

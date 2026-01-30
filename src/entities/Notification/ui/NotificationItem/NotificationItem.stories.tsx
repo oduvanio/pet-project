@@ -8,7 +8,7 @@ const meta: Meta<typeof NotificationItem> = {
 
 export default meta;
 
-type Story = StoryObj<typeof NotificationItem>
+type Story = StoryObj<typeof NotificationItem>;
 
 export const Normal: Story = {
     decorators: [],

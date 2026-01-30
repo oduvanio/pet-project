@@ -2,7 +2,10 @@ import { Meta, StoryObj } from '@storybook/react';
 import { StoreDecorator } from '@/shared/config/storybook/StoreDecorator/StoreDecorator';
 import { Article } from '../../model/types/article';
 
-import { ArticleType, ArticleBlockType } from '../../model/consts/articleConsts';
+import {
+    ArticleType,
+    ArticleBlockType,
+} from '../../model/consts/articleConsts';
 import { ArticleDetails } from './ArticleDetails';
 
 const meta: Meta<typeof ArticleDetails> = {
@@ -11,7 +14,7 @@ const meta: Meta<typeof ArticleDetails> = {
 
 export default meta;
 
-type Story = StoryObj<typeof ArticleDetails>
+type Story = StoryObj<typeof ArticleDetails>;
 
 const article: Article = {
     id: '1',
@@ -65,31 +68,37 @@ const article: Article = {
 };
 
 export const Normal: Story = {
-    decorators: [StoreDecorator({
-        articleDetails: {
-            data: article,
-        },
-    })],
+    decorators: [
+        StoreDecorator({
+            articleDetails: {
+                data: article,
+            },
+        }),
+    ],
     name: 'Normal',
     args: {},
 };
 
 export const Loading: Story = {
-    decorators: [StoreDecorator({
-        articleDetails: {
-            isLoading: true,
-        },
-    })],
+    decorators: [
+        StoreDecorator({
+            articleDetails: {
+                isLoading: true,
+            },
+        }),
+    ],
     name: 'Loading',
     args: {},
 };
 
 export const Error: Story = {
-    decorators: [StoreDecorator({
-        articleDetails: {
-            error: 'error',
-        },
-    })],
+    decorators: [
+        StoreDecorator({
+            articleDetails: {
+                error: 'error',
+            },
+        }),
+    ],
     name: 'Error',
     args: {},
 };

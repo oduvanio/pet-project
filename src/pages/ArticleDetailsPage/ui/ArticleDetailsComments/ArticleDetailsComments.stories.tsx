@@ -9,12 +9,10 @@ const meta: Meta<typeof ArticleDetailsComments> = {
 
 export default meta;
 
-type Story = StoryObj<typeof ArticleDetailsComments>
+type Story = StoryObj<typeof ArticleDetailsComments>;
 
 export const Normal: Story = {
     decorators: [StoreDecorator({})],
     name: 'Normal',
-    args: {
-
-    },
+    args: {},
 };

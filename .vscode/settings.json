@@ -1,8 +1,5 @@
 {
-    "i18n-ally.localesPaths": [
-        "public/locales",
-        "src/shared/config/i18n"
-    ],
+    "i18n-ally.localesPaths": ["public/locales", "src/shared/config/i18n"],
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": "explicit"
     },
@@ -10,7 +7,7 @@
         "javascript",
         "javascriptreact",
         "typescript",
-        "typescriptreact",
+        "typescriptreact"
     ],
     "scss.validate": true,
     "i18n-ally.sourceLanguage": "en",

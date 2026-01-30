@@ -1,717 +1,665 @@
 {
-  "notifications": [
-    {
-      "id": "1",
-      "title": "Уведомление 1",
-      "description": "Произошло какое-то событие",
-      "userId": "1"
-    },
-    {
-      "id": "2",
-      "title": "Уведомление 2",
-      "description": "Произошло какое-то событие",
-      "userId": "1",
-      "href": "http://localhost:3000/admin"
-    },
-    {
-      "id": "3",
-      "title": "Уведомление 3",
-      "description": "Произошло какое-то событие",
-      "userId": "1",
-      "href": "http://localhost:3000/admin"
-    },
-    {
-      "id": "4",
-      "title": "Уведомление 4",
-      "description": "Произошло какое-то событие",
-      "userId": "1"
-    },
-    {
-      "id": "5",
-      "title": "Уведомление 1",
-      "description": "Произошло какое-то событие",
-      "userId": "2"
-    }
-  ],
-  "posts": [
-    {
-      "id": "1",
-      "title": "json-server",
-      "userId": "1"
-    },
-    {
-      "id": "2",
-      "title": "json-server",
-      "userId": "2"
-    }
-  ],
-  "articles": [
-    {
-      "id": "1",
-      "title": "Javascript news",
-      "userId": "1",
-      "subtitle": "Что нового в JS За 2025 год",
-      "img": "https://avatars.mds.yandex.net/i?id=0bf5c655682bbe14a236ac2754bac954a9b1f901-5538185-images-thumbs&n=13",
-      "views": 1022,
-      "createdAt": "26.02.2025",
-      "type": [
-        "IT"
-      ],
-      "blocks": [
+    "notifications": [
         {
-          "id": "1",
-          "type": "TEXT",
-          "title": "Заголовок этого блока",
-          "paragraphs": [
-            "Программа, которую по традиции называют 'Hello, world', очень проста.",
-            "JavaScript - это язык, программы на котором можно выполнять в разных средах",
-            "Существуют и другие способы запуска JS-кода в браузере"
-          ]
+            "id": "1",
+            "title": "Уведомление 1",
+            "description": "Произошло какое-то событие",
+            "userId": "1"
         },
         {
-          "id": "4",
-          "type": "CODE",
-          "title": "Заголовок этого блока",
-          "code": "const path = require('path'); \n\nconst server = jsonServer.create();"
+            "id": "2",
+            "title": "Уведомление 2",
+            "description": "Произошло какое-то событие",
+            "userId": "1",
+            "href": "http://localhost:3000/admin"
         },
         {
-          "id": "5",
-          "type": "TEXT",
-          "title": "Заголовок этого блока",
-          "paragraphs": [
-            "Программа, которую по традиции называют 'Hello, world', очень проста.",
-            "Существуют и другие способы запуска JS-кода в браузере"
-          ]
+            "id": "3",
+            "title": "Уведомление 3",
+            "description": "Произошло какое-то событие",
+            "userId": "1",
+            "href": "http://localhost:3000/admin"
         },
         {
-          "id": "2",
-          "type": "IMAGE",
-          "src": "https://cdn.lemanapro.ru/lmru/image/upload/f_auto/q_auto/dpr_1.0/c_pad/w_1000/h_1000/v1714997029/lmcode/zAgHMAqShk-heLmb1Oi4Lg/89373153_01.png",
-          "title": "Рисунок 1 - скриншот сайта"
+            "id": "4",
+            "title": "Уведомление 4",
+            "description": "Произошло какое-то событие",
+            "userId": "1"
         },
         {
-          "id": "3",
-          "type": "CODE",
-          "code": "const path = require('path'); \n\nconst server = jsonServer.create();"
+            "id": "5",
+            "title": "Уведомление 1",
+            "description": "Произошло какое-то событие",
+            "userId": "2"
         }
-      ]
-    },
-    {
-      "id": "2",
-      "title": "Python news",
-      "userId": "1",
-      "subtitle": "Что нового в JS За 2025 год",
-      "img": "https://avatars.mds.yandex.net/i?id=0535305d1250d04128b42a12b3dbdd7cc5cff030-12150810-images-thumbs&n=13",
-      "views": 1022,
-      "createdAt": "26.02.2025",
-      "type": [
-        "IT"
-      ],
-      "blocks": [
+    ],
+    "posts": [
         {
-          "id": "1",
-          "type": "TEXT",
-          "title": "Заголовок этого блока",
-          "paragraphs": [
-            "Программа, которую по традиции называют 'Hello, world', очень проста.",
-            "JavaScript - это язык, программы на котором можно выполнять в разных средах",
-            "Существуют и другие способы запуска JS-кода в браузере"
-          ]
+            "id": "1",
+            "title": "json-server",
+            "userId": "1"
         },
         {
-          "id": "4",
-          "type": "CODE",
-          "title": "Заголовок этого блока",
-          "code": "const path = require('path'); \n\nconst server = jsonServer.create();"
+            "id": "2",
+            "title": "json-server",
+            "userId": "2"
+        }
+    ],
+    "articles": [
+        {
+            "id": "1",
+            "title": "Javascript news",
+            "userId": "1",
+            "subtitle": "Что нового в JS За 2025 год",
+            "img": "https://avatars.mds.yandex.net/i?id=0bf5c655682bbe14a236ac2754bac954a9b1f901-5538185-images-thumbs&n=13",
+            "views": 1022,
+            "createdAt": "26.02.2025",
+            "type": ["IT"],
+            "blocks": [
+                {
+                    "id": "1",
+                    "type": "TEXT",
+                    "title": "Заголовок этого блока",
+                    "paragraphs": [
+                        "Программа, которую по традиции называют 'Hello, world', очень проста.",
+                        "JavaScript - это язык, программы на котором можно выполнять в разных средах",
+                        "Существуют и другие способы запуска JS-кода в браузере"
+                    ]
+                },
+                {
+                    "id": "4",
+                    "type": "CODE",
+                    "title": "Заголовок этого блока",
+                    "code": "const path = require('path'); \n\nconst server = jsonServer.create();"
+                },
+                {
+                    "id": "5",
+                    "type": "TEXT",
+                    "title": "Заголовок этого блока",
+                    "paragraphs": [
+                        "Программа, которую по традиции называют 'Hello, world', очень проста.",
+                        "Существуют и другие способы запуска JS-кода в браузере"
+                    ]
+                },
+                {
+                    "id": "2",
+                    "type": "IMAGE",
+                    "src": "https://cdn.lemanapro.ru/lmru/image/upload/f_auto/q_auto/dpr_1.0/c_pad/w_1000/h_1000/v1714997029/lmcode/zAgHMAqShk-heLmb1Oi4Lg/89373153_01.png",
+                    "title": "Рисунок 1 - скриншот сайта"
+                },
+                {
+                    "id": "3",
+                    "type": "CODE",
+                    "code": "const path = require('path'); \n\nconst server = jsonServer.create();"
+                }
+            ]
         },
         {
-          "id": "5",
-          "type": "TEXT",
-          "title": "Заголовок этого блока",
-          "paragraphs": [
-            "Программа, которую по традиции называют 'Hello, world', очень проста.",
-            "Существуют и другие способы запуска JS-кода в браузере"
-          ]
+            "id": "2",
+            "title": "Python news",
+            "userId": "1",
+            "subtitle": "Что нового в JS За 2025 год",
+            "img": "https://avatars.mds.yandex.net/i?id=0535305d1250d04128b42a12b3dbdd7cc5cff030-12150810-images-thumbs&n=13",
+            "views": 1022,
+            "createdAt": "26.02.2025",
+            "type": ["IT"],
+            "blocks": [
+                {
+                    "id": "1",
+                    "type": "TEXT",
+                    "title": "Заголовок этого блока",
+                    "paragraphs": [
+                        "Программа, которую по традиции называют 'Hello, world', очень проста.",
+                        "JavaScript - это язык, программы на котором можно выполнять в разных средах",
+                        "Существуют и другие способы запуска JS-кода в браузере"
+                    ]
+                },
+                {
+                    "id": "4",
+                    "type": "CODE",
+                    "title": "Заголовок этого блока",
+                    "code": "const path = require('path'); \n\nconst server = jsonServer.create();"
+                },
+                {
+                    "id": "5",
+                    "type": "TEXT",
+                    "title": "Заголовок этого блока",
+                    "paragraphs": [
+                        "Программа, которую по традиции называют 'Hello, world', очень проста.",
+                        "Существуют и другие способы запуска JS-кода в браузере"
+                    ]
+                },
+                {
+                    "id": "2",
+                    "type": "IMAGE",
+                    "src": "https://cdn.lemanapro.ru/lmru/image/upload/f_auto/q_auto/dpr_1.0/c_pad/w_1000/h_1000/v1714997029/lmcode/zAgHMAqShk-heLmb1Oi4Lg/89373153_01.png",
+                    "title": "Рисунок 1 - скриншот сайта"
+                },
+                {
+                    "id": "3",
+                    "type": "CODE",
+                    "code": "const path = require('path'); \n\nconst server = jsonServer.create();"
+                }
+            ]
         },
         {
-          "id": "2",
-          "type": "IMAGE",
-          "src": "https://cdn.lemanapro.ru/lmru/image/upload/f_auto/q_auto/dpr_1.0/c_pad/w_1000/h_1000/v1714997029/lmcode/zAgHMAqShk-heLmb1Oi4Lg/89373153_01.png",
-          "title": "Рисунок 1 - скриншот сайта"
+            "id": "3",
+            "title": "Java news",
+            "userId": "1",
+            "subtitle": "Что нового в JS За 2025 год",
+            "img": "https://avatars.mds.yandex.net/i?id=a128926c2eeea617285fb72ba8b2d559050847b7-4480317-images-thumbs&n=13",
+            "views": 1022,
+            "createdAt": "26.02.2025",
+            "type": ["IT"],
+            "blocks": [
+                {
+                    "id": "1",
+                    "type": "TEXT",
+                    "title": "Заголовок этого блока",
+                    "paragraphs": [
+                        "Программа, которую по традиции называют 'Hello, world', очень проста.",
+                        "JavaScript - это язык, программы на котором можно выполнять в разных средах",
+                        "Существуют и другие способы запуска JS-кода в браузере"
+                    ]
+                },
+                {
+                    "id": "4",
+                    "type": "CODE",
+                    "title": "Заголовок этого блока",
+                    "code": "const path = require('path'); \n\nconst server = jsonServer.create();"
+                },
+                {
+                    "id": "5",
+                    "type": "TEXT",
+                    "title": "Заголовок этого блока",
+                    "paragraphs": [
+                        "Программа, которую по традиции называют 'Hello, world', очень проста.",
+                        "Существуют и другие способы запуска JS-кода в браузере"
+                    ]
+                },
+                {
+                    "id": "2",
+                    "type": "IMAGE",
+                    "src": "https://cdn.lemanapro.ru/lmru/image/upload/f_auto/q_auto/dpr_1.0/c_pad/w_1000/h_1000/v1714997029/lmcode/zAgHMAqShk-heLmb1Oi4Lg/89373153_01.png",
+                    "title": "Рисунок 1 - скриншот сайта"
+                },
+                {
+                    "id": "3",
+                    "type": "CODE",
+                    "code": "const path = require('path'); \n\nconst server = jsonServer.create();"
+                }
+            ]
         },
         {
-          "id": "3",
-          "type": "CODE",
-          "code": "const path = require('path'); \n\nconst server = jsonServer.create();"
-        }
-      ]
-    },
-    {
-      "id": "3",
-      "title": "Java news",
-      "userId": "1",
-      "subtitle": "Что нового в JS За 2025 год",
-      "img": "https://avatars.mds.yandex.net/i?id=a128926c2eeea617285fb72ba8b2d559050847b7-4480317-images-thumbs&n=13",
-      "views": 1022,
-      "createdAt": "26.02.2025",
-      "type": [
-        "IT"
-      ],
-      "blocks": [
-        {
-          "id": "1",
-          "type": "TEXT",
-          "title": "Заголовок этого блока",
-          "paragraphs": [
-            "Программа, которую по традиции называют 'Hello, world', очень проста.",
-            "JavaScript - это язык, программы на котором можно выполнять в разных средах",
-            "Существуют и другие способы запуска JS-кода в браузере"
-          ]
+            "id": "4",
+            "title": "Искусственный интеллект в медицине",
+            "userId": "1",
+            "subtitle": "Как ИИ диагностирует болезни",
+            "img": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWklMjBtZWRpY2luZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+            "views": 3200,
+            "createdAt": "12.03.2025",
+            "type": ["IT", "SCIENCE"],
+            "blocks": [
+                {
+                    "id": "1",
+                    "type": "TEXT",
+                    "title": "Точность диагностики",
+                    "paragraphs": [
+                        "Нейросети превзошли врачей в анализе рентгеновских снимков."
+                    ]
+                }
+            ]
         },
         {
-          "id": "4",
-          "type": "CODE",
-          "title": "Заголовок этого блока",
-          "code": "const path = require('path'); \n\nconst server = jsonServer.create();"
+            "id": "5",
+            "title": "Космический туризм Virgin Galactic",
+            "userId": "1",
+            "subtitle": "Первый коммерческий полёт",
+            "img": "https://images.unsplash.com/photo-1454789548928-9efd52dc4031?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3BhY2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+            "views": 8900,
+            "createdAt": "05.04.2025",
+            "type": ["TECH"],
+            "blocks": [
+                {
+                    "id": "1",
+                    "type": "IMAGE",
+                    "src": "https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3BhY2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+                    "title": "Космический корабль VSS Unity"
+                }
+            ]
         },
         {
-          "id": "5",
-          "type": "TEXT",
-          "title": "Заголовок этого блока",
-          "paragraphs": [
-            "Программа, которую по традиции называют 'Hello, world', очень проста.",
-            "Существуют и другие способы запуска JS-кода в браузере"
-          ]
+            "id": "6",
+            "title": "Электромобили Tesla 2025",
+            "userId": "1",
+            "subtitle": "Новая модель Cybertruck",
+            "img": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dGVzbGElMjBjeWJlcnRydWNrfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+            "views": 15000,
+            "createdAt": "18.02.2025",
+            "type": ["TECH"],
+            "blocks": [
+                {
+                    "id": "1",
+                    "type": "TEXT",
+                    "title": "Характеристики",
+                    "paragraphs": [
+                        "Запас хода: 800 км. Разгон до 100 км/ч за 2.9 сек."
+                    ]
+                }
+            ]
         },
         {
-          "id": "2",
-          "type": "IMAGE",
-          "src": "https://cdn.lemanapro.ru/lmru/image/upload/f_auto/q_auto/dpr_1.0/c_pad/w_1000/h_1000/v1714997029/lmcode/zAgHMAqShk-heLmb1Oi4Lg/89373153_01.png",
-          "title": "Рисунок 1 - скриншот сайта"
+            "id": "7",
+            "title": "Беспилотные грузовики",
+            "userId": "1",
+            "subtitle": "Как ИИ изменит логистику",
+            "img": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXV0b25vbW91cyUyMHRydWNrfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+            "views": 7600,
+            "createdAt": "22.05.2025",
+            "type": ["TECH"],
+            "blocks": [
+                {
+                    "id": "1",
+                    "type": "CODE",
+                    "code": "autonomousTruck.navigate(route);"
+                }
+            ]
         },
         {
-          "id": "3",
-          "type": "CODE",
-          "code": "const path = require('path'); \n\nconst server = jsonServer.create();"
-        }
-      ]
-    },
-    {
-      "id": "4",
-      "title": "Искусственный интеллект в медицине",
-      "userId": "1",
-      "subtitle": "Как ИИ диагностирует болезни",
-      "img": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWklMjBtZWRpY2luZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
-      "views": 3200,
-      "createdAt": "12.03.2025",
-      "type": [
-        "IT",
-        "SCIENCE"
-      ],
-      "blocks": [
+            "id": "8",
+            "title": "Квантовые компьютеры Google",
+            "userId": "1",
+            "subtitle": "Прорыв в вычислениях",
+            "img": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cXVhbnR1bSUyMGNvbXB1dGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+            "views": 11200,
+            "createdAt": "14.01.2025",
+            "type": ["IT", "SCIENCE"],
+            "blocks": [
+                {
+                    "id": "1",
+                    "type": "TEXT",
+                    "title": "Квантовое превосходство",
+                    "paragraphs": [
+                        "Решена задача за 200 секунд вместо 10,000 лет."
+                    ]
+                }
+            ]
+        },
         {
-          "id": "1",
-          "type": "TEXT",
-          "title": "Точность диагностики",
-          "paragraphs": [
-            "Нейросети превзошли врачей в анализе рентгеновских снимков."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5",
-      "title": "Космический туризм Virgin Galactic",
-      "userId": "1",
-      "subtitle": "Первый коммерческий полёт",
-      "img": "https://images.unsplash.com/photo-1454789548928-9efd52dc4031?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3BhY2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
-      "views": 8900,
-      "createdAt": "05.04.2025",
-      "type": [
-        "TECH"
-      ],
-      "blocks": [
+            "id": "11",
+            "title": "ИИ в сельском хозяйстве",
+            "userId": "1",
+            "subtitle": "Роботы-фермеры",
+            "img": "https://images.unsplash.com/photo-1555255707-c07966088b7b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWklMjBmYXJtaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+            "views": 5400,
+            "createdAt": "19.02.2025",
+            "type": ["IT"],
+            "blocks": [
+                {
+                    "id": "1",
+                    "type": "CODE",
+                    "code": "farmBot.plantSeeds(wheatField);"
+                }
+            ]
+        },
         {
-          "id": "1",
-          "type": "IMAGE",
-          "src": "https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3BhY2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
-          "title": "Космический корабль VSS Unity"
-        }
-      ]
-    },
-    {
-      "id": "6",
-      "title": "Электромобили Tesla 2025",
-      "userId": "1",
-      "subtitle": "Новая модель Cybertruck",
-      "img": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dGVzbGElMjBjeWJlcnRydWNrfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
-      "views": 15000,
-      "createdAt": "18.02.2025",
-      "type": [
-        "TECH"
-      ],
-      "blocks": [
+            "id": "12",
+            "title": "Дроны-курьеры Amazon",
+            "userId": "1",
+            "subtitle": "Доставка за 30 минут",
+            "img": "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZHJvbmUlMjBkZWxpdmVyeXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+            "views": 8900,
+            "createdAt": "25.05.2025",
+            "type": ["TECH"],
+            "blocks": [
+                {
+                    "id": "1",
+                    "type": "TEXT",
+                    "title": "Как это работает",
+                    "paragraphs": [
+                        "Дроны поднимают грузы до 2.5 кг на расстояние 25 км."
+                    ]
+                }
+            ]
+        },
         {
-          "id": "1",
-          "type": "TEXT",
-          "title": "Характеристики",
-          "paragraphs": [
-            "Запас хода: 800 км. Разгон до 100 км/ч за 2.9 сек."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "7",
-      "title": "Беспилотные грузовики",
-      "userId": "1",
-      "subtitle": "Как ИИ изменит логистику",
-      "img": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXV0b25vbW91cyUyMHRydWNrfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
-      "views": 7600,
-      "createdAt": "22.05.2025",
-      "type": [
-        "TECH"
-      ],
-      "blocks": [
+            "id": "14",
+            "title": "Умные города будущего",
+            "userId": "1",
+            "subtitle": "Технологии для мегаполисов",
+            "img": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+            "views": 7800,
+            "createdAt": "16.03.2025",
+            "type": ["TECH"],
+            "blocks": [
+                {
+                    "id": "1",
+                    "type": "TEXT",
+                    "title": "Автоматизация",
+                    "paragraphs": [
+                        "Датачики управляют светофорами, парковками и освещением."
+                    ]
+                }
+            ]
+        },
         {
-          "id": "1",
-          "type": "CODE",
-          "code": "autonomousTruck.navigate(route);"
-        }
-      ]
-    },
-    {
-      "id": "8",
-      "title": "Квантовые компьютеры Google",
-      "userId": "1",
-      "subtitle": "Прорыв в вычислениях",
-      "img": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cXVhbnR1bSUyMGNvbXB1dGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
-      "views": 11200,
-      "createdAt": "14.01.2025",
-      "type": [
-        "IT",
-        "SCIENCE"
-      ],
-      "blocks": [
+            "id": "16",
+            "title": "Робот-повар Moley",
+            "userId": "1",
+            "subtitle": "Кухня будущего",
+            "img": "https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cm9ib3QlMjBjaGVmfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+            "views": 6800,
+            "createdAt": "09.02.2025",
+            "type": ["TECH"],
+            "blocks": [
+                {
+                    "id": "1",
+                    "type": "CODE",
+                    "code": "robotChef.cook('pasta carbonara');"
+                }
+            ]
+        },
         {
-          "id": "1",
-          "type": "TEXT",
-          "title": "Квантовое превосходство",
-          "paragraphs": [
-            "Решена задача за 200 секунд вместо 10,000 лет."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "11",
-      "title": "ИИ в сельском хозяйстве",
-      "userId": "1",
-      "subtitle": "Роботы-фермеры",
-      "img": "https://images.unsplash.com/photo-1555255707-c07966088b7b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWklMjBmYXJtaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
-      "views": 5400,
-      "createdAt": "19.02.2025",
-      "type": [
-        "IT"
-      ],
-      "blocks": [
+            "id": "17",
+            "title": "Подводные дроны",
+            "userId": "1",
+            "subtitle": "Исследование океана",
+            "img": "https://images.unsplash.com/photo-1560275619-4662e36fa65c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dW5kZXJ3YXRlciUyMGRyb25lfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+            "views": 5200,
+            "createdAt": "21.05.2025",
+            "type": ["SCIENCE"],
+            "blocks": [
+                {
+                    "id": "1",
+                    "type": "TEXT",
+                    "title": "Глубина погружения",
+                    "paragraphs": [
+                        "Новые модели достигают дна Марианской впадины."
+                    ]
+                }
+            ]
+        },
         {
-          "id": "1",
-          "type": "CODE",
-          "code": "farmBot.plantSeeds(wheatField);"
-        }
-      ]
-    },
-    {
-      "id": "12",
-      "title": "Дроны-курьеры Amazon",
-      "userId": "1",
-      "subtitle": "Доставка за 30 минут",
-      "img": "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZHJvbmUlMjBkZWxpdmVyeXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
-      "views": 8900,
-      "createdAt": "25.05.2025",
-      "type": [
-        "TECH"
-      ],
-      "blocks": [
+            "id": "18",
+            "title": "Умные контактные линзы",
+            "userId": "1",
+            "subtitle": "Дополненная реальность",
+            "img": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c21hcnQlMjBsZW5zZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+            "views": 7300,
+            "createdAt": "13.03.2025",
+            "type": ["TECH"],
+            "blocks": [
+                {
+                    "id": "1",
+                    "type": "TEXT",
+                    "title": "Функционал",
+                    "paragraphs": [
+                        "Навигация, перевод текста, zoom-камера в реальном времени."
+                    ]
+                }
+            ]
+        },
         {
-          "id": "1",
-          "type": "TEXT",
-          "title": "Как это работает",
-          "paragraphs": [
-            "Дроны поднимают грузы до 2.5 кг на расстояние 25 км."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "14",
-      "title": "Умные города будущего",
-      "userId": "1",
-      "subtitle": "Технологии для мегаполисов",
-      "img": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
-      "views": 7800,
-      "createdAt": "16.03.2025",
-      "type": [
-        "TECH"
-      ],
-      "blocks": [
+            "id": "19",
+            "title": "Беспроводное электричество",
+            "userId": "1",
+            "subtitle": "Технология WiTricity",
+            "img": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2lyZWxlc3MlMjBlbGVjdHJpY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+            "views": 6100,
+            "createdAt": "04.04.2025",
+            "type": ["ECONOMICS"],
+            "blocks": [
+                {
+                    "id": "1",
+                    "type": "TEXT",
+                    "title": "Как это работает",
+                    "paragraphs": [
+                        "Передача энергии на расстояние до 5 метров без проводов."
+                    ]
+                }
+            ]
+        },
         {
-          "id": "1",
-          "type": "TEXT",
-          "title": "Автоматизация",
-          "paragraphs": [
-            "Датачики управляют светофорами, парковками и освещением."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "16",
-      "title": "Робот-повар Moley",
-      "userId": "1",
-      "subtitle": "Кухня будущего",
-      "img": "https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cm9ib3QlMjBjaGVmfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
-      "views": 6800,
-      "createdAt": "09.02.2025",
-      "type": [
-        "TECH"
-      ],
-      "blocks": [
+            "title": "Javascript news",
+            "userId": "1",
+            "subtitle": "Что нового в JS За 2025 год",
+            "img": "https://avatars.mds.yandex.net/i?id=0bf5c655682bbe14a236ac2754bac954a9b1f901-5538185-images-thumbs&n=13",
+            "views": 1022,
+            "createdAt": "26.02.2025",
+            "type": ["IT"],
+            "blocks": [],
+            "id": "kMhRzCt"
+        },
         {
-          "id": "1",
-          "type": "CODE",
-          "code": "robotChef.cook('pasta carbonara');"
-        }
-      ]
-    },
-    {
-      "id": "17",
-      "title": "Подводные дроны",
-      "userId": "1",
-      "subtitle": "Исследование океана",
-      "img": "https://images.unsplash.com/photo-1560275619-4662e36fa65c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dW5kZXJ3YXRlciUyMGRyb25lfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
-      "views": 5200,
-      "createdAt": "21.05.2025",
-      "type": [
-        "SCIENCE"
-      ],
-      "blocks": [
+            "title": "Javascript news",
+            "userId": "1",
+            "subtitle": "Что нового в JS За 2025 год",
+            "img": "https://avatars.mds.yandex.net/i?id=0bf5c655682bbe14a236ac2754bac954a9b1f901-5538185-images-thumbs&n=13",
+            "views": 1022,
+            "createdAt": "26.02.2025",
+            "type": ["IT"],
+            "blocks": [],
+            "id": "mC4w0B4"
+        },
         {
-          "id": "1",
-          "type": "TEXT",
-          "title": "Глубина погружения",
-          "paragraphs": [
-            "Новые модели достигают дна Марианской впадины."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "18",
-      "title": "Умные контактные линзы",
-      "userId": "1",
-      "subtitle": "Дополненная реальность",
-      "img": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c21hcnQlMjBsZW5zZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
-      "views": 7300,
-      "createdAt": "13.03.2025",
-      "type": [
-        "TECH"
-      ],
-      "blocks": [
+            "title": "Javascript news",
+            "userId": "1",
+            "subtitle": "Что нового в JS За 2025 год",
+            "img": "https://avatars.mds.yandex.net/i?id=0bf5c655682bbe14a236ac2754bac954a9b1f901-5538185-images-thumbs&n=13",
+            "views": 1022,
+            "createdAt": "26.02.2025",
+            "type": ["IT"],
+            "blocks": [],
+            "id": "cOK7ENh"
+        },
         {
-          "id": "1",
-          "type": "TEXT",
-          "title": "Функционал",
-          "paragraphs": [
-            "Навигация, перевод текста, zoom-камера в реальном времени."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "19",
-      "title": "Беспроводное электричество",
-      "userId": "1",
-      "subtitle": "Технология WiTricity",
-      "img": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2lyZWxlc3MlMjBlbGVjdHJpY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
-      "views": 6100,
-      "createdAt": "04.04.2025",
-      "type": [
-        "ECONOMICS"
-      ],
-      "blocks": [
+            "title": "Javascript news",
+            "userId": "1",
+            "subtitle": "Что нового в JS За 2025 год",
+            "img": "https://avatars.mds.yandex.net/i?id=0bf5c655682bbe14a236ac2754bac954a9b1f901-5538185-images-thumbs&n=13",
+            "views": 1022,
+            "createdAt": "26.02.2025",
+            "type": ["IT"],
+            "blocks": [],
+            "id": "LSfvVQ2"
+        },
         {
-          "id": "1",
-          "type": "TEXT",
-          "title": "Как это работает",
-          "paragraphs": [
-            "Передача энергии на расстояние до 5 метров без проводов."
-          ]
+            "title": "TESTING ARTICLE",
+            "userId": "1",
+            "subtitle": "Что нового в JS За 2025 год",
+            "img": "https://avatars.mds.yandex.net/i?id=0bf5c655682bbe14a236ac2754bac954a9b1f901-5538185-images-thumbs&n=13",
+            "views": 1022,
+            "createdAt": "26.02.2025",
+            "type": ["IT"],
+            "blocks": [],
+            "id": "9_MtfFe"
+        },
+        {
+            "title": "TESTING ARTICLE",
+            "userId": "1",
+            "subtitle": "Что нового в JS За 2025 год",
+            "img": "https://avatars.mds.yandex.net/i?id=0bf5c655682bbe14a236ac2754bac954a9b1f901-5538185-images-thumbs&n=13",
+            "views": 1022,
+            "createdAt": "26.02.2025",
+            "type": ["IT"],
+            "blocks": [],
+            "id": "pmMhbMT"
         }
-      ]
-    },
-    {
-      "title": "Javascript news",
-      "userId": "1",
-      "subtitle": "Что нового в JS За 2025 год",
-      "img": "https://avatars.mds.yandex.net/i?id=0bf5c655682bbe14a236ac2754bac954a9b1f901-5538185-images-thumbs&n=13",
-      "views": 1022,
-      "createdAt": "26.02.2025",
-      "type": [
-        "IT"
-      ],
-      "blocks": [],
-      "id": "kMhRzCt"
-    },
-    {
-      "title": "Javascript news",
-      "userId": "1",
-      "subtitle": "Что нового в JS За 2025 год",
-      "img": "https://avatars.mds.yandex.net/i?id=0bf5c655682bbe14a236ac2754bac954a9b1f901-5538185-images-thumbs&n=13",
-      "views": 1022,
-      "createdAt": "26.02.2025",
-      "type": [
-        "IT"
-      ],
-      "blocks": [],
-      "id": "mC4w0B4"
-    },
-    {
-      "title": "Javascript news",
-      "userId": "1",
-      "subtitle": "Что нового в JS За 2025 год",
-      "img": "https://avatars.mds.yandex.net/i?id=0bf5c655682bbe14a236ac2754bac954a9b1f901-5538185-images-thumbs&n=13",
-      "views": 1022,
-      "createdAt": "26.02.2025",
-      "type": [
-        "IT"
-      ],
-      "blocks": [],
-      "id": "cOK7ENh"
-    },
-    {
-      "title": "Javascript news",
-      "userId": "1",
-      "subtitle": "Что нового в JS За 2025 год",
-      "img": "https://avatars.mds.yandex.net/i?id=0bf5c655682bbe14a236ac2754bac954a9b1f901-5538185-images-thumbs&n=13",
-      "views": 1022,
-      "createdAt": "26.02.2025",
-      "type": [
-        "IT"
-      ],
-      "blocks": [],
-      "id": "LSfvVQ2"
-    },
-    {
-      "title": "TESTING ARTICLE",
-      "userId": "1",
-      "subtitle": "Что нового в JS За 2025 год",
-      "img": "https://avatars.mds.yandex.net/i?id=0bf5c655682bbe14a236ac2754bac954a9b1f901-5538185-images-thumbs&n=13",
-      "views": 1022,
-      "createdAt": "26.02.2025",
-      "type": [
-        "IT"
-      ],
-      "blocks": [],
-      "id": "9_MtfFe"
-    },
-    {
-      "title": "TESTING ARTICLE",
-      "userId": "1",
-      "subtitle": "Что нового в JS За 2025 год",
-      "img": "https://avatars.mds.yandex.net/i?id=0bf5c655682bbe14a236ac2754bac954a9b1f901-5538185-images-thumbs&n=13",
-      "views": 1022,
-      "createdAt": "26.02.2025",
-      "type": [
-        "IT"
-      ],
-      "blocks": [],
-      "id": "pmMhbMT"
-    }
-  ],
-  "comments": [
-    {
-      "id": "1",
-      "text": "some comment",
-      "articleId": "1",
-      "userId": "1"
-    },
-    {
-      "id": "2",
-      "text": "some comment 2",
-      "articleId": "1",
-      "userId": "1"
-    },
-    {
-      "id": "3",
-      "text": "some comment 3",
-      "articleId": "1",
-      "userId": "1"
-    },
-    {
-      "articleId": "1",
-      "userId": "1",
-      "text": "123",
-      "id": "3CEyz4K"
-    },
-    {
-      "articleId": "1",
-      "userId": "2",
-      "text": "234",
-      "id": "w58i41o"
-    },
-    {
-      "articleId": "1",
-      "userId": "2",
-      "text": "Привет мир",
-      "id": "ex23nWV"
-    },
-    {
-      "articleId": "14",
-      "userId": "1",
-      "text": "233",
-      "id": "oOr0aBJ"
-    },
-    {
-      "articleId": "14",
-      "userId": "1",
-      "text": "фпждофдлжпоф",
-      "id": "oMjtVpt"
-    },
-    {
-      "articleId": "5",
-      "userId": "1",
-      "text": "Ghb",
-      "id": "8NRclbj"
-    },
-    {
-      "articleId": "5",
-      "userId": "2",
-      "text": "234242",
-      "id": "hBIItfg"
-    },
-    {
-      "articleId": "5",
-      "userId": "2",
-      "text": "fdsafsafsa",
-      "id": "irwV16-"
-    },
-    {
-      "articleId": "5",
-      "userId": "2",
-      "text": "sadf",
-      "id": "AR1KTN8"
-    }
-  ],
-  "users": [
-    {
-      "id": "1",
-      "username": "admin",
-      "password": "123",
-      "role": [
-        "ADMIN"
-      ],
-      "avatar": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ9E8XKEtZiFjJGEvVEiP1qZ2FSp9JYI0VrZsh2YU2UiXXYEoaUYAP5RZO9PZ69F9fnEWYkSAVN8dQgi-CnDXG7bw"
-    },
-    {
-      "id": "2",
-      "username": "user",
-      "password": "123",
-      "role": [
-        "USER"
-      ],
-      "avatar": "https://premiumkorea.ru/upload/1-1.jpg"
-    },
-    {
-      "id": "3",
-      "username": "manager",
-      "password": "123",
-      "role": [
-        "MANAGER"
-      ],
-      "avatar": "https://premiumkorea.ru/upload/1-1.jpg"
-    },
-    {
-      "id": "4",
-      "username": "testuser",
-      "password": "123",
-      "role": [
-        "ADMIN"
-      ],
-      "avatar": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ9E8XKEtZiFjJGEvVEiP1qZ2FSp9JYI0VrZsh2YU2UiXXYEoaUYAP5RZO9PZ69F9fnEWYkSAVN8dQgi-CnDXG7bw"
-    }
-  ],
-  "profile": [
-    {
-      "id": "1",
-      "country": "Armenia",
-      "avatar": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ9E8XKEtZiFjJGEvVEiP1qZ2FSp9JYI0VrZsh2YU2UiXXYEoaUYAP5RZO9PZ69F9fnEWYkSAVN8dQgi-CnDXG7bw",
-      "first": "Ленка",
-      "lastname": "Зозу",
-      "age": 40
-    },
-    {
-      "id": "2",
-      "country": "Russia",
-      "avatar": "https://premiumkorea.ru/upload/1-1.jpg",
-      "first": "Юля",
-      "lastname": "Зозул",
-      "age": 40
-    },
-    {
-      "id": "4",
-      "country": "Russia",
-      "avatar": "https://premiumkorea.ru/upload/1-1.jpg",
-      "first": "test",
-      "lastname": "user",
-      "age": 40
-    }
-  ],
-  "article-ratings": [
-    {
-      "id": "1",
-      "rate": 4,
-      "feedback": "Хорошая статья",
-      "userId": "1",
-      "articleId": "1"
-    },
-    {
-      "id": "2",
-      "rate": 4,
-      "feedback": "Хорошая статья",
-      "userId": "1",
-      "articleId": "2"
-    },
-    {
-      "userId": "1",
-      "articleId": "19",
-      "rate": 3,
-      "feedback": "",
-      "id": "EbBhGxy"
-    },
-    {
-      "userId": "1",
-      "articleId": "5",
-      "rate": 3,
-      "feedback": "",
-      "id": "CdxqLmu"
-    }
-  ],
-  "profile-ratings": [
-    {
-      "id": "1",
-      "rate": 4,
-      "feedback": "Хорошая статья",
-      "userId": "1",
-      "profileId": "1"
-    },
-    {
-      "id": "2",
-      "rate": 4,
-      "feedback": "Хорошая статья",
-      "userId": "1",
-      "profileId": "2"
-    }
-  ]
+    ],
+    "comments": [
+        {
+            "id": "1",
+            "text": "some comment",
+            "articleId": "1",
+            "userId": "1"
+        },
+        {
+            "id": "2",
+            "text": "some comment 2",
+            "articleId": "1",
+            "userId": "1"
+        },
+        {
+            "id": "3",
+            "text": "some comment 3",
+            "articleId": "1",
+            "userId": "1"
+        },
+        {
+            "articleId": "1",
+            "userId": "1",
+            "text": "123",
+            "id": "3CEyz4K"
+        },
+        {
+            "articleId": "1",
+            "userId": "2",
+            "text": "234",
+            "id": "w58i41o"
+        },
+        {
+            "articleId": "1",
+            "userId": "2",
+            "text": "Привет мир",
+            "id": "ex23nWV"
+        },
+        {
+            "articleId": "14",
+            "userId": "1",
+            "text": "233",
+            "id": "oOr0aBJ"
+        },
+        {
+            "articleId": "14",
+            "userId": "1",
+            "text": "фпждофдлжпоф",
+            "id": "oMjtVpt"
+        },
+        {
+            "articleId": "5",
+            "userId": "1",
+            "text": "Ghb",
+            "id": "8NRclbj"
+        },
+        {
+            "articleId": "5",
+            "userId": "2",
+            "text": "234242",
+            "id": "hBIItfg"
+        },
+        {
+            "articleId": "5",
+            "userId": "2",
+            "text": "fdsafsafsa",
+            "id": "irwV16-"
+        },
+        {
+            "articleId": "5",
+            "userId": "2",
+            "text": "sadf",
+            "id": "AR1KTN8"
+        }
+    ],
+    "users": [
+        {
+            "id": "1",
+            "username": "admin",
+            "password": "123",
+            "role": ["ADMIN"],
+            "avatar": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ9E8XKEtZiFjJGEvVEiP1qZ2FSp9JYI0VrZsh2YU2UiXXYEoaUYAP5RZO9PZ69F9fnEWYkSAVN8dQgi-CnDXG7bw"
+        },
+        {
+            "id": "2",
+            "username": "user",
+            "password": "123",
+            "role": ["USER"],
+            "avatar": "https://premiumkorea.ru/upload/1-1.jpg"
+        },
+        {
+            "id": "3",
+            "username": "manager",
+            "password": "123",
+            "role": ["MANAGER"],
+            "avatar": "https://premiumkorea.ru/upload/1-1.jpg"
+        },
+        {
+            "id": "4",
+            "username": "testuser",
+            "password": "123",
+            "role": ["ADMIN"],
+            "avatar": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ9E8XKEtZiFjJGEvVEiP1qZ2FSp9JYI0VrZsh2YU2UiXXYEoaUYAP5RZO9PZ69F9fnEWYkSAVN8dQgi-CnDXG7bw"
+        }
+    ],
+    "profile": [
+        {
+            "id": "1",
+            "country": "Armenia",
+            "avatar": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ9E8XKEtZiFjJGEvVEiP1qZ2FSp9JYI0VrZsh2YU2UiXXYEoaUYAP5RZO9PZ69F9fnEWYkSAVN8dQgi-CnDXG7bw",
+            "first": "Ленка",
+            "lastname": "Зозу",
+            "age": 40
+        },
+        {
+            "id": "2",
+            "country": "Russia",
+            "avatar": "https://premiumkorea.ru/upload/1-1.jpg",
+            "first": "Юля",
+            "lastname": "Зозул",
+            "age": 40
+        },
+        {
+            "id": "4",
+            "country": "Russia",
+            "avatar": "https://premiumkorea.ru/upload/1-1.jpg",
+            "first": "test",
+            "lastname": "user",
+            "age": 40
+        }
+    ],
+    "article-ratings": [
+        {
+            "id": "1",
+            "rate": 4,
+            "feedback": "Хорошая статья",
+            "userId": "1",
+            "articleId": "1"
+        },
+        {
+            "id": "2",
+            "rate": 4,
+            "feedback": "Хорошая статья",
+            "userId": "1",
+            "articleId": "2"
+        },
+        {
+            "userId": "1",
+            "articleId": "19",
+            "rate": 3,
+            "feedback": "",
+            "id": "EbBhGxy"
+        },
+        {
+            "userId": "1",
+            "articleId": "5",
+            "rate": 3,
+            "feedback": "",
+            "id": "CdxqLmu"
+        }
+    ],
+    "profile-ratings": [
+        {
+            "id": "1",
+            "rate": 4,
+            "feedback": "Хорошая статья",
+            "userId": "1",
+            "profileId": "1"
+        },
+        {
+            "id": "2",
+            "rate": 4,
+            "feedback": "Хорошая статья",
+            "userId": "1",
+            "profileId": "2"
+        }
+    ]
 }

@@ -9,7 +9,7 @@ const meta: Meta<typeof Loader> = {
 };
 export default meta;
 
-type Story = StoryObj<typeof Loader>
+type Story = StoryObj<typeof Loader>;
 
 export const Light: Story = {
     decorators: [],

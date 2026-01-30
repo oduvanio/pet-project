@@ -9,12 +9,10 @@ const meta: Meta<typeof EditableProfileCard> = {
 
 export default meta;
 
-type Story = StoryObj<typeof EditableProfileCard>
+type Story = StoryObj<typeof EditableProfileCard>;
 
 export const Normal: Story = {
     decorators: [StoreDecorator({})],
     name: 'EditableProfileCard',
-    args: {
-
-    },
+    args: {},
 };

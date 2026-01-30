@@ -14,7 +14,7 @@ const meta: Meta<typeof ArticleRecommendationsList> = {
 
 export default meta;
 
-type Story = StoryObj<typeof ArticleRecommendationsList>
+type Story = StoryObj<typeof ArticleRecommendationsList>;
 
 const article: Article = {
     id: '1',
@@ -32,9 +32,7 @@ export const Normal: Story = {
     loaders: [mswLoader],
     decorators: [StoreDecorator({})],
     name: 'ArticleRecommendationsList',
-    args: {
-
-    },
+    args: {},
     parameters: {
         msw: {
             handlers: [
@@ -45,20 +43,28 @@ export const Normal: Story = {
 
                     const url = new URL(request.url);
                     console.log('   Pathname:', url.pathname);
-                    console.log('   Search params:', Object.fromEntries(url.searchParams.entries()));
+                    console.log(
+                        '   Search params:',
+                        Object.fromEntries(url.searchParams.entries()),
+                    );
 
                     // Проверяем, что это за запрос
                     if (url.pathname.includes('recommendations')) {
                         console.log('   ⭐ Это похоже на запрос рекомендаций!');
 
-                        const recommendations = Array.from({ length: 3 }, (_, i) => ({
-                            ...article,
-                            id: String(i + 1),
-                            title: `Рекомендация ${i + 1}`,
-                            subtitle: `Подзаголовок рекомендации ${i + 1}`,
-                            views: 100 + i * 50,
-                            img: `https://placehold.co/600x400/00${i}0/FFFFFF?text=Recommendation+${i + 1}`,
-                        }));
+                        const recommendations = Array.from(
+                            { length: 3 },
+                            (_, i) => ({
+                                ...article,
+                                id: String(i + 1),
+                                title: `Рекомендация ${i + 1}`,
+                                subtitle: `Подзаголовок рекомендации ${i + 1}`,
+                                views: 100 + i * 50,
+                                img: `https://placehold.co/600x400/00${i}0/FFFFFF?text=Recommendation+${
+                                    i + 1
+                                }`,
+                            }),
+                        );
 
                         console.log('   📤 Отправляем 3 рекомендации');
                         return HttpResponse.json(recommendations);
@@ -78,7 +84,11 @@ export const Normal: Story = {
 
                     // Создаем массив рекомендаций
                     const recommendations = [];
-                    for (let i = 1; i <= (limit ? parseInt(limit, 10) : 3); i += 1) {
+                    for (
+                        let i = 1;
+                        i <= (limit ? parseInt(limit, 10) : 3);
+                        i += 1
+                    ) {
                         recommendations.push({
                             ...article,
                             id: String(i),
@@ -87,7 +97,11 @@ export const Normal: Story = {
                         });
                     }
 
-                    console.log('   Отправляем:', recommendations.length, 'статей');
+                    console.log(
+                        '   Отправляем:',
+                        recommendations.length,
+                        'статей',
+                    );
                     return HttpResponse.json(recommendations);
                 }),
             ],

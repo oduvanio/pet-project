@@ -10,7 +10,7 @@ const meta: Meta<typeof ArticleList> = {
 
 export default meta;
 
-type Story = StoryObj<typeof ArticleList>
+type Story = StoryObj<typeof ArticleList>;
 
 const articleMock = {
     id: '1',
@@ -24,9 +24,7 @@ const articleMock = {
         username: 'zoz',
         avatar: 'https://premiumkorea.ru/upload/1-1.jpg',
     },
-    type: [
-        'IT',
-    ],
+    type: ['IT'],
     blocks: [
         {
             id: '1',

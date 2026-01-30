@@ -8,12 +8,10 @@ const meta: Meta<typeof AppImage> = {
 
 export default meta;
 
-type Story = StoryObj<typeof AppImage>
+type Story = StoryObj<typeof AppImage>;
 
 export const Normal: Story = {
     decorators: [],
     name: 'Normal',
-    args: {
-
-    },
+    args: {},
 };

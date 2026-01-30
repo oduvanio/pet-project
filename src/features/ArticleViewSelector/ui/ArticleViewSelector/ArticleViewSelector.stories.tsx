@@ -8,12 +8,10 @@ const meta: Meta<typeof ArticleViewSelector> = {
 
 export default meta;
 
-type Story = StoryObj<typeof ArticleViewSelector>
+type Story = StoryObj<typeof ArticleViewSelector>;
 
 export const Normal: Story = {
     decorators: [],
     name: 'ArticleViewSelector',
-    args: {
-
-    },
+    args: {},
 };

@@ -8,11 +8,15 @@ const meta: Meta<typeof ListBox> = {
 
 export default meta;
 
-type Story = StoryObj<typeof ListBox>
+type Story = StoryObj<typeof ListBox>;
 
 export const TopLeft: Story = {
     decorators: [
-        (Story) => <div style={{ padding: 100 }}><Story /></div>,
+        (Story) => (
+            <div style={{ padding: 100 }}>
+                <Story />
+            </div>
+        ),
     ],
     name: 'TopLeft',
     args: {
@@ -30,7 +34,11 @@ export const TopLeft: Story = {
 
 export const TopRight: Story = {
     decorators: [
-        (Story) => <div style={{ padding: 100 }}><Story /></div>,
+        (Story) => (
+            <div style={{ padding: 100 }}>
+                <Story />
+            </div>
+        ),
     ],
     name: 'TopRight',
     args: {
@@ -48,7 +56,11 @@ export const TopRight: Story = {
 
 export const BottomLeft: Story = {
     decorators: [
-        (Story) => <div style={{ padding: 100 }}><Story /></div>,
+        (Story) => (
+            <div style={{ padding: 100 }}>
+                <Story />
+            </div>
+        ),
     ],
     name: 'BottomLeft',
     args: {
@@ -66,7 +78,11 @@ export const BottomLeft: Story = {
 
 export const BottomRight: Story = {
     decorators: [
-        (Story) => <div style={{ padding: 100 }}><Story /></div>,
+        (Story) => (
+            <div style={{ padding: 100 }}>
+                <Story />
+            </div>
+        ),
     ],
     name: 'BottomRight',
     args: {

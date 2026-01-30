@@ -8,12 +8,10 @@ const meta: Meta<typeof ArticlesPageFilters> = {
 
 export default meta;
 
-type Story = StoryObj<typeof ArticlesPageFilters>
+type Story = StoryObj<typeof ArticlesPageFilters>;
 
 export const Normal: Story = {
     decorators: [],
     name: 'Normal',
-    args: {
-
-    },
+    args: {},
 };

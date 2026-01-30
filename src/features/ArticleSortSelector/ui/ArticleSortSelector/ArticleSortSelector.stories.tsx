@@ -8,12 +8,10 @@ const meta: Meta<typeof ArticleSortSelector> = {
 
 export default meta;
 
-type Story = StoryObj<typeof ArticleSortSelector>
+type Story = StoryObj<typeof ArticleSortSelector>;
 
 export const Normal: Story = {
     decorators: [],
     name: 'ArticleSortSelector',
-    args: {
-
-    },
+    args: {},
 };

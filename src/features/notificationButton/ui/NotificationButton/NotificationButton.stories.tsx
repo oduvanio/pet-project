@@ -8,12 +8,10 @@ const meta: Meta<typeof NotificationButton> = {
 
 export default meta;
 
-type Story = StoryObj<typeof NotificationButton>
+type Story = StoryObj<typeof NotificationButton>;
 
 export const Normal: Story = {
     decorators: [],
     name: 'Normal',
-    args: {
-
-    },
+    args: {},
 };

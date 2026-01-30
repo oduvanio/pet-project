@@ -8,7 +8,7 @@ const meta: Meta<typeof Code> = {
 
 export default meta;
 
-type Story = StoryObj<typeof Code>
+type Story = StoryObj<typeof Code>;
 
 export const Normal: Story = {
     decorators: [],

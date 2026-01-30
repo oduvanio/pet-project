@@ -7,7 +7,7 @@ export enum ArticleType {
 
 export enum ArticleView {
     BIG = 'BIG',
-    SMALL = 'SMALL'
+    SMALL = 'SMALL',
 }
 
 export enum ArticleSortField {
@@ -19,5 +19,5 @@ export enum ArticleSortField {
 export enum ArticleBlockType {
     CODE = 'CODE',
     IMAGE = 'IMAGE',
-    TEXT = 'TEXT'
+    TEXT = 'TEXT',
 }

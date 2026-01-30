@@ -10,7 +10,7 @@ const meta: Meta<typeof PageError> = {
 
 export default meta;
 
-type Story = StoryObj<typeof PageError>
+type Story = StoryObj<typeof PageError>;
 
 export const Light: Story = {
     decorators: [],

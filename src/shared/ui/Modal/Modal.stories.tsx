@@ -10,14 +10,15 @@ const meta: Meta<typeof Modal> = {
 
 export default meta;
 
-type Story = StoryObj<typeof Modal>
+type Story = StoryObj<typeof Modal>;
 
 export const Light: Story = {
     decorators: [],
     name: 'Ligth',
     args: {
         isOpen: true,
-        children: 'Много текста для модалки, для тестирования модалки в сторибуке, просто много текста',
+        children:
+            'Много текста для модалки, для тестирования модалки в сторибуке, просто много текста',
     },
 };
 
@@ -26,6 +27,7 @@ export const Dark: Story = {
     name: 'Dark',
     args: {
         isOpen: true,
-        children: 'Много текста для модалки, для тестирования модалки в сторибуке, просто много текста',
+        children:
+            'Много текста для модалки, для тестирования модалки в сторибуке, просто много текста',
     },
 };

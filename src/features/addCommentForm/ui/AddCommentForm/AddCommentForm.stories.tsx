@@ -10,12 +10,10 @@ const meta: Meta<typeof AddCommentForm> = {
 
 export default meta;
 
-type Story = StoryObj<typeof AddCommentForm>
+type Story = StoryObj<typeof AddCommentForm>;
 
 export const Normal: Story = {
-    decorators: [
-        StoreDecorator({}),
-    ],
+    decorators: [StoreDecorator({})],
     name: 'Normal',
     args: {
         onSendComment: action('onSendComment'),

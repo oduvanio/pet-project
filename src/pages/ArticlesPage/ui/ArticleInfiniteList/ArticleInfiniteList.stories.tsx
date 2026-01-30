@@ -8,12 +8,10 @@ const meta: Meta<typeof ArticleInfiniteList> = {
 
 export default meta;
 
-type Story = StoryObj<typeof ArticleInfiniteList>
+type Story = StoryObj<typeof ArticleInfiniteList>;
 
 export const Normal: Story = {
     decorators: [],
     name: 'Normal',
-    args: {
-
-    },
+    args: {},
 };

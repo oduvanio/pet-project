@@ -4,7 +4,10 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Dropdown } from '@/shared/ui/Popups';
 import { classNames } from '@/shared/lib/classNames/classNames';
 import {
-    getUserAuthData, isUseManager, isUserAdmin, userActions,
+    getUserAuthData,
+    isUseManager,
+    isUserAdmin,
+    userActions,
 } from '@/entities/User';
 import { Avatar } from '@/shared/ui/Avatar';
 import cls from './AvatarDropdown.module.scss';
@@ -37,10 +40,14 @@ export const AvatarDropdown = memo((props: AvatarDropdownProps) => {
             className={classNames(cls.AvatarDropdown, {}, [className])}
             direction="bottom left"
             items={[
-                ...(isAdminPanelAvailable ? [{
-                    content: t('Админка'),
-                    href: getRouteAdminPanel(),
-                }] : []),
+                ...(isAdminPanelAvailable
+                    ? [
+                          {
+                              content: t('Админка'),
+                              href: getRouteAdminPanel(),
+                          },
+                      ]
+                    : []),
                 {
                     content: t('Профиль'),
                     href: getRouteProfile(authData.id),
@@ -50,7 +57,9 @@ export const AvatarDropdown = memo((props: AvatarDropdownProps) => {
                     onClick: onLogout,
                 },
             ]}
-            trigger={<Avatar fallbackInverted size={30} src={authData.avatar} />}
+            trigger={
+                <Avatar fallbackInverted size={30} src={authData.avatar} />
+            }
         />
     );
 });

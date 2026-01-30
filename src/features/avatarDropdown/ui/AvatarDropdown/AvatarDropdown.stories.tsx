@@ -8,12 +8,10 @@ const meta: Meta<typeof AvatarDropdown> = {
 
 export default meta;
 
-type Story = StoryObj<typeof AvatarDropdown>
+type Story = StoryObj<typeof AvatarDropdown>;
 
 export const Normal: Story = {
     decorators: [],
     name: 'Normal',
-    args: {
-
-    },
+    args: {},
 };

@@ -10,7 +10,7 @@ const meta: Meta<typeof ArticleDetailsPage> = {
 
 export default meta;
 
-type Story = StoryObj<typeof ArticleDetailsPage>
+type Story = StoryObj<typeof ArticleDetailsPage>;
 
 const article: Article = {
     id: '1',
@@ -64,11 +64,13 @@ const article: Article = {
 };
 
 export const Normal: Story = {
-    decorators: [StoreDecorator({
-        articleDetails: {
-            data: article,
-        },
-    })],
+    decorators: [
+        StoreDecorator({
+            articleDetails: {
+                data: article,
+            },
+        }),
+    ],
     name: 'Normal',
     args: {},
 };

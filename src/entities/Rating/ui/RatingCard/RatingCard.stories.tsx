@@ -8,12 +8,10 @@ const meta: Meta<typeof RatingCard> = {
 
 export default meta;
 
-type Story = StoryObj<typeof RatingCard>
+type Story = StoryObj<typeof RatingCard>;
 
 export const Normal: Story = {
     decorators: [],
     name: 'Normal',
-    args: {
-
-    },
+    args: {},
 };

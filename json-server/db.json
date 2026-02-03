@@ -566,6 +566,10 @@
             "username": "admin",
             "password": "123",
             "role": ["ADMIN"],
+            "features": {
+                "isArticleRatingEnabled": true,
+                "isCounterEnabled": true
+            },
             "avatar": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ9E8XKEtZiFjJGEvVEiP1qZ2FSp9JYI0VrZsh2YU2UiXXYEoaUYAP5RZO9PZ69F9fnEWYkSAVN8dQgi-CnDXG7bw"
         },
         {
@@ -573,6 +577,10 @@
             "username": "user",
             "password": "123",
             "role": ["USER"],
+            "features": {
+                "isArticleRatingEnabled": false,
+                "isCounterEnabled": false
+            },
             "avatar": "https://premiumkorea.ru/upload/1-1.jpg"
         },
         {
@@ -580,6 +588,10 @@
             "username": "manager",
             "password": "123",
             "role": ["MANAGER"],
+            "features": {
+                "isArticleRatingEnabled": false,
+                "isCounterEnabled": true
+            },
             "avatar": "https://premiumkorea.ru/upload/1-1.jpg"
         },
         {
@@ -587,6 +599,10 @@
             "username": "testuser",
             "password": "123",
             "role": ["ADMIN"],
+            "features": {
+                "isArticleRatingEnabled": true,
+                "isCounterEnabled": false
+            },
             "avatar": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ9E8XKEtZiFjJGEvVEiP1qZ2FSp9JYI0VrZsh2YU2UiXXYEoaUYAP5RZO9PZ69F9fnEWYkSAVN8dQgi-CnDXG7bw"
         }
     ],

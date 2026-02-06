@@ -573,7 +573,8 @@
             "jsonSettings": {
                 "theme": "app_orange_theme",
                 "isFirstVisit": true,
-                "settingsPageHasBeenOpen": false
+                "settingsPageHasBeenOpen": false,
+                "isArticlesPageWasOpened": true
             },
             "avatar": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ9E8XKEtZiFjJGEvVEiP1qZ2FSp9JYI0VrZsh2YU2UiXXYEoaUYAP5RZO9PZ69F9fnEWYkSAVN8dQgi-CnDXG7bw"
         },

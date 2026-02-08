@@ -76,6 +76,8 @@ module.exports = {
                     'gap',
                     'role',
                     'feature',
+                    'color',
+                    'variant'
                 ],
             },
         ],

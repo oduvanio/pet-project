@@ -1,0 +1,24 @@
+import { Meta, StoryObj } from '@storybook/react';
+
+import { Input } from './Input';
+
+const meta: Meta<typeof Input> = {
+    component: Input,
+};
+
+export default meta;
+
+type Story = StoryObj<typeof Input>;
+
+/**
+ * Устарел, используем новые компоненты из папки redesigned
+ * @deprecated
+ */
+export const Primary: Story = {
+    decorators: [],
+    name: 'Primary',
+    args: {
+        placeholder: 'Type text',
+        value: '123123',
+    },
+};
